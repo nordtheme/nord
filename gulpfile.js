@@ -2,7 +2,7 @@
 +++++++++++++++++++++++++++++++++++++++++++
 title     Project Gulp File               +
 project   nord                            +
-version                                   +
+version   0.1.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 copyright Copyright (C) 2016              +
@@ -34,7 +34,7 @@ var config = {
   project: {
     id: "nord",
     name: "Nord",
-    version: "",
+    version: "0.1.0",
     repository: "https://github.com/arcticicestudio/nord",
     author: "Arctic Ice Studio",
     email: "development@arcticicestudio.com"
