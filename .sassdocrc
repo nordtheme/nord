@@ -1,0 +1,12 @@
+{
+  "dest": "./build/documentation/sassdoc",
+  "package": "package.json",
+  "groups": {
+    "polarnight": "Polar Night",
+    "snowstorm": "Snow Storm",
+    "frost": "Frost",
+    "aurora": "Aurora"
+  },
+  "theme": "flippant",
+  "verbose": true
+}

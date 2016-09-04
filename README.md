@@ -44,7 +44,7 @@ Copy the `nord.scss` file into your project and import it in your Sass files:
 The `.scss` file extension is optional.
 
 #### Sassdoc
-Nord is documented using the [Sassdoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
+Nord Sass sources are documented using the [Sassdoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
 ```sh
 npm install
 gulp sassdoc
@@ -59,7 +59,7 @@ Copy the `nord.less` file into your project and import it in your LESSCSS files:
 Information about how the `@import` statement handles imports with different file extensions can be found in the [official LESSCSS documentation](http://lesscss.org/features/#import-directives-feature).
 
 #### KSS
-Nord is documented using the [KSS](http://warpspire.com/kss) documentation syntax.  
+Nord LESSCSS sources are documented using the [KSS](http://warpspire.com/kss) documentation syntax.  
 Information about the generation of a styleguide can be found in the [official KSS documentation](http://warpspire.com/kss/styleguides).
 
 ### <img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
@@ -74,10 +74,11 @@ Nord is available in various native formats:
 [![Nord Atom Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
 [![Nord IntelliJ IDEA Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
+[![Nord Notepad++](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
 [![Nord Vim](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
 
 ## Development
-[![Changelog](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.0.0/CHANGELOG.md)
+[![Changelog](https://img.shields.io/badge/Changelog-v0.1.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.1.0/CHANGELOG.md)
 
 ### Workflow
 This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
