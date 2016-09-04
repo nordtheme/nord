@@ -78,3 +78,15 @@ var path         = require("path");
 var plumber      = require("gulp-plumber");
 var rename       = require("gulp-rename");
 var sass         = require("gulp-sass");
+
+/*+-------+
+  + Tasks +
+  +-------+*/
+/**
+ * Cleans the whole build folder.
+ *
+ * @since 0.1.0
+ */
+gulp.task("clean", function() {
+  del(config.build.base);
+});
