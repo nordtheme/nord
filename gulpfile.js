@@ -66,3 +66,15 @@ var config = {
     }
   }
 }
+
+/*+---------+
+  + Imports +
+  +---------+*/
+var del          = require("del");
+var fs           = require("fs");
+var gulp         = require("gulp-help")(require("gulp"));
+var gulputil     = require("gulp-util");
+var path         = require("path");
+var plumber      = require("gulp-plumber");
+var rename       = require("gulp-rename");
+var sass         = require("gulp-sass");
