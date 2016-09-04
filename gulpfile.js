@@ -121,3 +121,10 @@ gulp.task("compile-css-template", function() {
     .pipe(rename("/nord." + config.tasks.compilation.sass.extensions.output))
     .pipe(gulp.dest(config.build.css))
 });
+
+/**
+ * Shows the help.
+ *
+ * @since 0.1.0
+ */
+gulp.task("default", ["help"]);
