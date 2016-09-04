@@ -17,6 +17,7 @@ copyright Copyright (C) 2016              +
       clean-documentation
       compile-css-template
       default
+      sassdoc
 
 [References]
 Gulp
@@ -78,6 +79,7 @@ var path         = require("path");
 var plumber      = require("gulp-plumber");
 var rename       = require("gulp-rename");
 var sass         = require("gulp-sass");
+var sassdoc      = require("sassdoc");
 
 /*+-------+
   + Tasks +
@@ -128,3 +130,13 @@ gulp.task("compile-css-template", function() {
  * @since 0.1.0
  */
 gulp.task("default", ["help"]);
+
+/**
+ * Creates the Sassdoc documentation.
+ *
+ * @since 0.1.0
+ */
+gulp.task("sassdoc", function () {
+  return gulp.src(path.join(config.src.sass, "/**/*." + config.tasks.compilation.sass.extensions.input))
+    .pipe(sassdoc())
+});
