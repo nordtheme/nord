@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
 
 <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> [![release](https://img.shields.io/github/release/arcticicestudio/nord.svg)](https://github.com/arcticicestudio/nord/releases/latest)
 
@@ -9,7 +9,7 @@ It consists of a total of sixteen, carefully selected, dimmed pastel colors for 
 
 The color palette it divided into four named components to represent the different color effects.
 
-![Nord Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
+![Nord Palette Overview](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
 
 Nord colors are numbered from `nord0` to `nord15` where each component contains a different amount of colors:  
   1. **Polar Night** `nord0` - `nord3`  
@@ -62,7 +62,7 @@ Information about how the `@import` statement handles imports with different fil
 Nord LESSCSS sources are documented using the [KSS](http://warpspire.com/kss) documentation syntax.  
 Information about the generation of a styleguide can be found in the [official KSS documentation](http://warpspire.com/kss/styleguides).
 
-### <img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
+### <img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
 Nord is available in various native formats:
   - `.ace` Adobe Photoshop Palette
   - `.ase` Adobe Swatch Exchange
@@ -71,11 +71,11 @@ Nord is available in various native formats:
   - `.mtl` Alias/WaveFront Material
 
 ## Projects
-[![Nord Atom Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
-[![Nord Atom UI](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
-[![Nord IntelliJ IDEA Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
-[![Nord Notepad++](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
-[![Nord Vim](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
+[![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
+[![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
+[![Nord IntelliJ IDEA Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
+[![Nord Notepad++](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
+[![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
 
 ## Development
 [![Changelog](https://img.shields.io/badge/Changelog-v0.1.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.1.0/CHANGELOG.md)
@@ -96,7 +96,7 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
   - <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> [Sass](http://sass-lang.com)
   - <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> [SassDoc](http://sassdoc.com)
 
-<p align="center">![](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg)</p>
+<p align="center">![](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg)</p>
 ---
 
 <p align="center">
