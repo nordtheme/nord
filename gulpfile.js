@@ -90,3 +90,12 @@ var sass         = require("gulp-sass");
 gulp.task("clean", function() {
   del(config.build.base);
 });
+
+/**
+ * Cleans the CSS build folder.
+ *
+ * @since 0.1.0
+ */
+gulp.task("clean-css", function(){
+  del(config.build.css);
+});
