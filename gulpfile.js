@@ -108,3 +108,16 @@ gulp.task("clean-css", function(){
 gulp.task("clean-documentation", function(){
   del(config.build.sassdoc);
 });
+
+/**
+ * Compiles the Sass CSS template.
+ *
+ * @since 0.1.0
+ */
+gulp.task("compile-css-template", function() {
+  return gulp.src(path.join(config.src.sass, "/template-css." + config.tasks.compilation.sass.extensions.input))
+    .pipe(plumber())
+    .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
+    .pipe(rename("/nord." + config.tasks.compilation.sass.extensions.output))
+    .pipe(gulp.dest(config.build.css))
+});
