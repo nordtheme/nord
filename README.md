@@ -96,13 +96,11 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
   - <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> [Sass](http://sass-lang.com)
   - <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> [SassDoc](http://sassdoc.com)
 
-<p align="center">![](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg)</p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
 ---
 
-<p align="center">
-<img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio
+<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
-[![GPL-3.0](http://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.txt) [![CC BY-SA-4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0)
-</p>
+<p align="center"> <a href="http://www.gnu.org/licenses/gpl.txt"><img src="http://www.gnu.org/graphics/gplv3-88x31.png" alt="GPL 3.0" /></a> <a href="http://creativecommons.org/licenses/by-sa/4.0"><img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" alt="CC BY-SA-4.0" /></a> </p>
 
 [gulp]: http://gulpjs.com
