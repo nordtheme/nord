@@ -74,6 +74,7 @@ Nord is available in various native formats:
 [![Nord Atom Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
 [![Nord IntelliJ IDEA Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
+[![Nord Notepad++](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
 [![Nord Vim](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
 
 ## Development
