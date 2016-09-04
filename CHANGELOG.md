@@ -1,7 +1,7 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
 
 # 0.1.0 (2016-09-04)
-![Nord Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
+![Nord Palette Overview](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
 
 ## Features
 ### <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> Sass
@@ -39,6 +39,6 @@ Added various native color palette files:
 # 0.0.0 (2016-09-04)
 **Project Initialization**
 
-[icon-color-swatch]: https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg
+[icon-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg
 [sassdoc]: http://sassdoc.com
 [gulp]: http://gulpjs.com
