@@ -99,3 +99,12 @@ gulp.task("clean", function() {
 gulp.task("clean-css", function(){
   del(config.build.css);
 });
+
+/**
+ * Cleans the documentation build folder.
+ *
+ * @since 0.1.0
+ */
+gulp.task("clean-documentation", function(){
+  del(config.build.sassdoc);
+});
