@@ -178,15 +178,12 @@ $nord6: #ECEFF4;
 /// @since 0.1.0
 $nord7:  #8FBCBB;
 
-/// Bluish core color.
+/// Bluish core accent color.
 ///
 /// Represents the accent color of the color palette.  
-/// Can be used as main color for primary UI elements.  
-/// Optionally used for methods/functions instead of `$nord14`.
+/// Main color for primary UI elements and methods/functions.  
 ///
-/// Also commonly used for
-///   - documentation/annotation tags
-///   - attribute values
+/// Can be used for
 ///   - Markup quotes
 ///   - Markup link URLs
 ///
@@ -234,7 +231,7 @@ $nord11: #BF616A;
 
 /// Colorful component color.
 ///
-/// Most commonly used for annotations and regular expressions.
+/// Most commonly used for annotation- and documentation tags.
 ///
 /// @access public
 /// @group aurora
@@ -252,7 +249,8 @@ $nord13: #EBCB8B;
 
 /// Colorful component color.
 ///
-/// Most commonly used for methods/functions, git/diff additions and success visualizations.
+/// Main color for strings and attribute values.  
+/// In the UI scope used for git/diff additions and success visualizations.
 ///
 /// @access public
 /// @group aurora
