@@ -213,7 +213,8 @@ $nord12: #D08770;
 
 /// Colorful component color.
 ///
-/// Used for escape characters, warnings, git/diff renamings and markup entities.
+/// Used for escape characters, regular expressions and markup entities.  
+/// In the UI scope used for warnings and git/diff renamings.
 ///
 /// @access public
 /// @group aurora
