@@ -1,11 +1,13 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
 
-<img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> [![release](https://img.shields.io/github/release/arcticicestudio/nord.svg)](https://github.com/arcticicestudio/nord/releases/latest)
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> [![release](https://img.shields.io/github/release/arcticicestudio/nord.svg)](https://github.com/arcticicestudio/nord/releases/latest)</p>
 
-A arctic, north-bluish color palette.
+<p align="center">A arctic, north-bluish color palette.</p>
 
-Created for the clean- and minimal design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
-It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.
+<p align="center">Created for the clean- and minimal design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
+It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.</p>
+
+---
 
 The color palette it divided into four named components to represent the different color effects.
 
@@ -36,23 +38,23 @@ npm install
 gulp compile-css-template
 ```
 
-### Sass
-Copy the `nord.scss` file into your project and import it in your Sass files:
+### <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> Sass
+Copy the `nord.scss` file into your project and import it in your [Sass](http://sass-lang.com) files:
 ```css
 @import "nord";
 ```
 The `.scss` file extension is optional.
 
-#### Sassdoc
-Nord Sass sources are documented using the [Sassdoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
+#### <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> SassDoc
+Nord Sass sources are documented using the [SassDoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
 ```sh
 npm install
 gulp sassdoc
 ```
 The Sassdoc theme can be changed by editing the `.sassdocrc` configuration file.
 
-### LESSCSS
-Copy the `nord.less` file into your project and import it in your LESSCSS files:  
+### <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> LESSCSS
+Copy the `nord.less` file into your project and import it in your [LESSCSS](http://lesscss.org) files:  
 ```css
 @import "nord";
 ```
@@ -70,6 +72,8 @@ Nord is available in various native formats:
   - `.gpl` GIMP/Inkscape/CinePaint/Krita Palette
   - `.mtl` Alias/WaveFront Material
 
+A list of detailed information about each file format can be found [here](http://www.selapa.net/swatches/colors/fileformats.php).
+
 ## Projects
 [![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
@@ -78,29 +82,15 @@ Nord is available in various native formats:
 [![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
 
 ## Development
-[![Changelog](https://img.shields.io/badge/Changelog-v0.1.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.1.0/CHANGELOG.md)
-
-### Workflow
-This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
-
-### Specifications
-This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+[![](https://img.shields.io/badge/Changelog-0.1.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.1.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow_Branching_Model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord/issues).
 
-### References
-  - [Color Swatch File Formats](http://www.selapa.net/swatches/colors/fileformats.php)
-  - [KSS](http://warpspire.com/kss)
-  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16 /> [LESSCSS](http://lesscss.org)
-  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> [Sass](http://sass-lang.com)
-  - <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> [SassDoc](http://sassdoc.com)
-
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
----
 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
-<p align="center"> <a href="http://www.gnu.org/licenses/gpl.txt"><img src="http://www.gnu.org/graphics/gplv3-88x31.png" alt="GPL 3.0" /></a> <a href="http://creativecommons.org/licenses/by-sa/4.0"><img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" alt="CC BY-SA-4.0" /></a> </p>
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg"/></a></p>
 
 [gulp]: http://gulpjs.com
