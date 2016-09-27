@@ -141,15 +141,12 @@ Styleguide Nord
   --nord7: $nord7;
 
   /*
-  Bluish core color.
+  Bluish core accent color.
 
   Represents the accent color of the color palette.  
-  Can be used as main color for primary UI elements.  
-  Optionally used for methods/functions instead of @nord14
+  Main color for primary UI elements and methods/functions.
 
-  Also commonly used for
-    - documentation/annotation tags
-    - attribute values
+  Can be used for
     - Markup quotes
     - Markup link URLs
 
@@ -209,7 +206,7 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for annotations and regular expressions.
+  Most commonly used for annotation- and documentation tags.
 
   Markup:
   <div style="background-color:#D08770; width=60; height=60"></div>
@@ -233,7 +230,8 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for methods/functions, git/diff additions and success visualizations.
+  Main color for strings and attribute values.  
+  In the UI scope used for git/diff additions and success visualizations.
 
   Markup:
   <div style="background-color:#A3BE8C; width=60; height=60"></div>
