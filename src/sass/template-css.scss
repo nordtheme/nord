@@ -89,8 +89,8 @@ Styleguide Nord
   /*
   Base component color of "Snow Storm".
 
-  Used for texts, carets and structuring characters like curly- and square brackets.  
-  In the UI scope it may be used as semi-light background depending on the theme shading design.
+  Main color for text, variables, constants and attributes.
+  In the UI scope used as semi-light background depending on the theme shading design.
 
   Markup:
   <div style="background-color:#D8DEE9; width=60; height=60"></div>
@@ -115,8 +115,8 @@ Styleguide Nord
   /*
   Lighter shade color of the base component color.
 
-  Usually be used as background depending on the theme shading design.  
-  In the UI scope it may be used as selection- and hightlight color.
+  Used for punctuations, carets and structuring characters like curly- and square brackets.  
+  In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 
   Markup:
   <div style="background-color:#ECEFF4; width=60; height=60"></div>
@@ -128,10 +128,7 @@ Styleguide Nord
   /*
   Bluish core color.
 
-  Most commonly used for
-    - classes/types
-    - attributes
-    - constants
+  Used for classes, types and documentation tags.
 
   Markup:
   <div style="background-color:#8FBCBB; width=60; height=60"></div>
@@ -206,7 +203,7 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for annotation- and documentation tags.
+  Used for annotations.
 
   Markup:
   <div style="background-color:#D08770; width=60; height=60"></div>

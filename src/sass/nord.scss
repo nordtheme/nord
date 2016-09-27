@@ -112,9 +112,8 @@ $nord3: #4C566A;
 
 /// Base component color of "Snow Storm".
 ///
-/// Used for texts, carets and structuring characters like curly- and square brackets.  
-/// In the UI scope it may be used as semi-light background depending on the theme shading design.
-///
+/// Main color for text, variables, constants and attributes.
+/// In the UI scope used as semi-light background depending on the theme shading design.
 ///
 /// @access public
 /// @example scss - SCSS
@@ -143,24 +142,10 @@ $nord5: #E5E9F0;
 
 /// Lighter shade color of the base component color.
 ///
-/// Usually be used as background depending on the theme shading design.  
-/// In the UI scope it may be used as selection- and hightlight color.
+/// Used for punctuations, carets and structuring characters like curly- and square brackets.  
+/// In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 ///
 /// @access public
-/// @example scss - SCSS
-///   /* Code Syntax Highlighting scope */
-///   .editor {
-///     &.line {
-///       background-color: $nord2;
-///     }
-///   }
-///
-///   /* UI scope */
-///   button {
-///     &:selected {
-///       background-color: $nord2;
-///     }
-///   }
 /// @group snowstorm
 /// @see $nord4
 /// @since 0.1.0
@@ -168,10 +153,7 @@ $nord6: #ECEFF4;
 
 /// Bluish core color.
 ///
-/// Most commonly used for
-///   - classes/types
-///   - attributes
-///   - constants
+/// Used for classes, types and documentation tags.
 ///
 /// @access public
 /// @group frost
@@ -231,7 +213,7 @@ $nord11: #BF616A;
 
 /// Colorful component color.
 ///
-/// Most commonly used for annotation- and documentation tags.
+/// Used for annotations.
 ///
 /// @access public
 /// @group aurora
