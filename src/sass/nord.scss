@@ -81,7 +81,7 @@ $nord2: #434C5E;
 /// Lighter shade color of the base component color.
 ///
 /// Used for comments, invisibles, indent- and wrap guide marker.  
-/// In the UI scope it may be used as pseudeoclass color for disabled elements.
+/// In the UI scope used as pseudoclass color for disabled elements.
 ///
 /// @access public
 /// @example scss - SCSS
@@ -132,7 +132,7 @@ $nord4: #D8DEE9;
 /// Lighter shade color of the base component color.
 ///
 /// Used as a lighter background color for UI elements like status bars.  
-/// It may also be used as semi-light background depending on the theme shading design.
+/// Used as semi-light background depending on the theme shading design.
 ///
 /// @access public
 /// @group snowstorm
@@ -176,13 +176,8 @@ $nord8:  #88C0D0;
 
 /// Bluish core color.
 ///
-/// Most commonly used for
-///   - language-specific syntactic/reserved keywords
-///   - operators
-///   - tags
-///   - punctuations like colon/semicolon, comma and braces
-///
-/// Can optionally be used for units and language-specific reserved special support characters (`px`/`em`, `$`, `%`).
+/// Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
+/// punctuations like (semi)colons,commas and braces.
 ///
 /// @access public
 /// @group frost
@@ -191,11 +186,7 @@ $nord9:  #81A1C1;
 
 /// Bluish core color.
 ///
-/// Most commonly used for
-///   - Markup doctypes
-///   - import/include/require statements
-///   - pre-processor statements
-///   - at-rules (`@`)
+/// Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
 ///
 /// @access public
 /// @group frost
@@ -204,7 +195,7 @@ $nord10: #5E81AC;
 
 /// Colorful component color.
 ///
-/// Most commonly used for errors, git/diff deletion and linter marker.
+/// Used for errors, git/diff deletion and linter marker.
 ///
 /// @access public
 /// @group aurora
@@ -222,7 +213,8 @@ $nord12: #D08770;
 
 /// Colorful component color.
 ///
-/// Most commonly used for escape characters, warnings, git/diff renamings and Markup entities.
+/// Used for escape characters, regular expressions and markup entities.  
+/// In the UI scope used for warnings and git/diff renamings.
 ///
 /// @access public
 /// @group aurora
@@ -241,7 +233,7 @@ $nord14: #A3BE8C;
 
 /// Colorful component color.
 ///
-/// Most commonly used for numbers.
+/// Used for numbers.
 ///
 /// @access public
 /// @group aurora
