@@ -77,7 +77,7 @@ Styleguide Nord
   Lighter shade color of the base component color.
 
   Used for comments, invisibles, indent- and wrap guide marker.  
-  In the UI scope it may be used as pseudeoclass color for disabled elements.
+  In the UI scope used as pseudoclass color for disabled elements.
 
   Markup:
   <div style="background-color:#4C566A; width=60; height=60"></div>
@@ -103,7 +103,7 @@ Styleguide Nord
   Lighter shade color of the base component color.
 
   Used as a lighter background color for UI elements like status bars.  
-  It may also be used as semi-light background depending on the theme shading design.
+  Used as semi-light background depending on the theme shading design.
 
   Markup:
   <div style="background-color:#E5E9F0; width=60; height=60"></div>
@@ -157,13 +157,8 @@ Styleguide Nord
   /*
   Bluish core color.
 
-  Most commonly used for
-    - language-specific syntactic/reserved keywords
-    - operators
-    - tags
-    - punctuations like colon/semicolon, comma and braces
-
-  Can optionally be used for units and language-specific reserved special support characters (px/em, $, %).
+  Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
+  punctuations like (semi)colons,commas and braces.
 
   Markup:
   <div style="background-color:#81A1C1; width=60; height=60"></div>
@@ -175,11 +170,7 @@ Styleguide Nord
   /*
   Bluish core color.
 
-  Most commonly used for
-    - Markup doctypes
-    - import/include/require statements
-    - pre-processor statements
-    - at-rules (@)
+  Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
 
   Markup:
   <div style="background-color:#5E81AC; width=60; height=60"></div>
@@ -191,7 +182,7 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for errors, git/diff deletion and linter marker.
+  Used for errors, git/diff deletion and linter marker.
 
   Markup:
   <div style="background-color:#BF616A; width=60; height=60"></div>
@@ -215,7 +206,7 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for escape characters, warnings, git/diff renamings and Markup entities.
+  Used for escape characters, warnings, git/diff renamings and markup entities.
 
   Markup:
   <div style="background-color:#EBCB8B; width=60; height=60"></div>
@@ -240,7 +231,7 @@ Styleguide Nord
   /*
   Colorful component color.
 
-  Most commonly used for numbers.
+  Used for numbers.
 
   Markup:
   <div style="background-color:#B48EAD; width=60; height=60"></div>
