@@ -66,7 +66,7 @@ Information about the generation of a styleguide can be found in the [official K
 
 ### <img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
 Nord is available in various native formats:
-  - `.ace` Adobe Photoshop Palette
+  - `.aco` Adobe Photoshop Palette
   - `.ase` Adobe Swatch Exchange
   - `.gpa` Gpick Palette
   - `.gpl` GIMP/Inkscape/CinePaint/Krita Palette
