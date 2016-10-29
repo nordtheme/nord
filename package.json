@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord/issues"
   },
-  "license" : "(GPL-3.0 AND CC-BY-SA-4.0)",
+  "license" : "(Apache-2.0 AND CC-BY-SA-4.0)",
   "keywords": [
     "nord",
     "arctic",
