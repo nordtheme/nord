@@ -4,7 +4,7 @@
 
 <p align="center">A arctic, north-bluish color palette.</p>
 
-<p align="center">Created for the clean- and minimal design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
+<p align="center">Created for the clean- and minimal flat design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
 It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.</p>
 
 ---
