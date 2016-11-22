@@ -22,7 +22,7 @@ var config = {
   project: {
     id: "nord",
     name: "Nord",
-    version: "0.1.0",
+    version: "0.2.0",
     repository: "https://github.com/arcticicestudio/nord",
     author: "Arctic Ice Studio",
     email: "development@arcticicestudio.com"
