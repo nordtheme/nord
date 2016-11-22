@@ -1,0 +1,23 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Circle CI Build Configuration           +
+# project    nord                                    +
+# repository https://github.com/arcticicestudio/nord +
+# author     Arctic Ice Studio                       +
+# email      development@arcticicestudio.com         +
+# copyright  Copyright (C) 2016                      +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Circle CI
+#   (https://circleci.com/docs)
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  override:
+    - npm install -g gulp
+    - npm install
+test:
+  override:
+    - gulp compile-css-template sassdoc
+    - find . -maxdepth 2 -type d -regextype posix-egrep -regex ".*/build/(.*)" -exec cp -r {} $CIRCLE_ARTIFACTS \;

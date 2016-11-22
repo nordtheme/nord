@@ -1,7 +1,7 @@
 {
   "name": "nord",
   "title": "Nord",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A arctic, north-bluish color palette",
   "author": {
     "name": "Arctic Ice Studio",
@@ -16,12 +16,15 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord/issues"
   },
-  "license" : "(GPL-3.0 AND CC-BY-SA-4.0)",
+  "license" : "(Apache-2.0 AND CC-BY-SA-4.0)",
   "keywords": [
     "nord",
     "arctic",
     "north",
     "bluish",
+    "clean",
+    "minimal",
+    "flat",
     "ui",
     "syntax"
   ],

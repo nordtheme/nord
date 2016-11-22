@@ -1,15 +1,17 @@
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
 
-<img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> [![release](https://img.shields.io/github/release/arcticicestudio/nord.svg)](https://github.com/arcticicestudio/nord/releases/latest)
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord"><img src="https://img.shields.io/travis/arcticicestudio/nord/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord"><img src="https://circleci.com/gh/arcticicestudio/nord.svg?style=shield&circle-token=8945e0a295af1d51d224daf2a800eb4be8b9589d"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/badge/pre--release---_-blue.svg"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/v/nord.svg"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dt/nord.svg"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dm/nord.svg"/></a></p>
 
-A arctic, north-bluish color palette.
+<p align="center">A arctic, north-bluish color palette.</p>
 
-Created for the clean- and minimal design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
-It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.
+<p align="center">Created for the clean- and minimal flat design pattern to achieve a optimal focus and readability for code syntax highlighting and UI.
+It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful ambiance.</p>
+
+---
 
 The color palette it divided into four named components to represent the different color effects.
 
-![Nord Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
+![Nord Palette Overview](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
 
 Nord colors are numbered from `nord0` to `nord15` where each component contains a different amount of colors:  
   1. **Polar Night** `nord0` - `nord3`  
@@ -36,23 +38,23 @@ npm install
 gulp compile-css-template
 ```
 
-### Sass
-Copy the `nord.scss` file into your project and import it in your Sass files:
+### <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> Sass
+Copy the `nord.scss` file into your project and import it in your [Sass](http://sass-lang.com) files:
 ```css
 @import "nord";
 ```
 The `.scss` file extension is optional.
 
-#### Sassdoc
-Nord Sass sources are documented using the [Sassdoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
+#### <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> SassDoc
+Nord Sass sources are documented using the [SassDoc](http://sassdoc.com) documentation syntax which can be compiled to a HTML documentation via [Gulp][gulp]:  
 ```sh
 npm install
 gulp sassdoc
 ```
 The Sassdoc theme can be changed by editing the `.sassdocrc` configuration file.
 
-### LESSCSS
-Copy the `nord.less` file into your project and import it in your LESSCSS files:  
+### <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16/> LESSCSS
+Copy the `nord.less` file into your project and import it in your [LESSCSS](http://lesscss.org) files:  
 ```css
 @import "nord";
 ```
@@ -62,47 +64,40 @@ Information about how the `@import` statement handles imports with different fil
 Nord LESSCSS sources are documented using the [KSS](http://warpspire.com/kss) documentation syntax.  
 Information about the generation of a styleguide can be found in the [official KSS documentation](http://warpspire.com/kss/styleguides).
 
-### <img src="https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
+### <img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
 Nord is available in various native formats:
-  - `.ace` Adobe Photoshop Palette
+  - `.aco` Adobe Photoshop Palette
   - `.ase` Adobe Swatch Exchange
   - `.gpa` Gpick Palette
   - `.gpl` GIMP/Inkscape/CinePaint/Krita Palette
   - `.mtl` Alias/WaveFront Material
 
-## Projects
-[![Nord Atom Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
-[![Nord Atom UI](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
-[![Nord IntelliJ IDEA Syntax](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
-[![Nord Notepad++](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
-[![Nord Vim](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)  
+A list of detailed information about each file format can be found [here](http://www.selapa.net/swatches/colors/fileformats.php).
+
+## Port Projects
+[![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
+[![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
+[![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
+[![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-gedit.svg)](https://github.com/arcticicestudio/nord-gedit)  
+[![Nord IntelliJ IDEA Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
+[![Nord Java](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-java-banner.svg)](https://github.com/arcticicestudio/nord-java)  
+[![Nord Notepad++](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
+[![Nord Terminix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminix-banner.svg)](https://github.com/arcticicestudio/nord-terminix)  
+[![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)
+
+## Forks
+  - [Nordisk](https://github.com/kamwitsta/nordisk) by @kamwitsta
 
 ## Development
-[![Changelog](https://img.shields.io/badge/Changelog-v0.1.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.1.0/CHANGELOG.md)
-
-### Workflow
-This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
-
-### Specifications
-This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+[![](https://img.shields.io/badge/Changelog-0.2.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow_Branching_Model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord/issues).
 
-### References
-  - [Color Swatch File Formats](http://www.selapa.net/swatches/colors/fileformats.php)
-  - [KSS](http://warpspire.com/kss)
-  - <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16 /> [LESSCSS](http://lesscss.org)
-  - <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> [Sass](http://sass-lang.com)
-  - <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> [SassDoc](http://sassdoc.com)
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
 
-<p align="center">![](https://raw.githubusercontent.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg)</p>
----
+<p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
-<p align="center">
-<img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio
-
-[![GPL-3.0](http://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.txt) [![CC BY-SA-4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0)
-</p>
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg"/></a></p>
 
 [gulp]: http://gulpjs.com
