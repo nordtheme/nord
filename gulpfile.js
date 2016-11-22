@@ -2,22 +2,10 @@
 +++++++++++++++++++++++++++++++++++++++++++
 title     Project Gulp File               +
 project   nord                            +
-version   0.1.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 copyright Copyright (C) 2016              +
 +++++++++++++++++++++++++++++++++++++++++++
-
-[Index]
-  > Configuration
-  > Imports
-  > Tasks
-      clean
-      clean-css
-      clean-documentation
-      compile-css-template
-      default
-      sassdoc
 
 [References]
 Gulp
