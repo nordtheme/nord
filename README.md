@@ -14,10 +14,10 @@ The color palette it divided into four named components to represent the differe
 ![Nord Palette Overview](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg)
 
 Nord colors are numbered from `nord0` to `nord15` where each component contains a different amount of colors:  
-  1. **Polar Night** `nord0` - `nord3`  
-  2. **Snow Storm** `nord4` - `nord6`  
-  3. **Frost** `nord7` - `nord10`  
-  4. **Aurora** `nord11` - `nord15`  
+  1. **Polar Night** `nord0` - `nord3`
+  2. **Snow Storm** `nord4` - `nord6`
+  3. **Frost** `nord7` - `nord10`
+  4. **Aurora** `nord11` - `nord15`
 
 This naming convention allows an uncomplicated use for terminals and preserves the compatibility to similar projects like [base16](http://chriskempson.com/projects/base16).
 
@@ -77,13 +77,22 @@ A list of detailed information about each file format can be found [here](http:/
 ## Port Projects
 [![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-syntax.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-atom-ui.svg)](https://atom.io/themes/nord-atom-ui)  
+[![Nord Coda](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-coda-banner.svg)](https://github.com/arcticicestudio/nord-coda)  
 [![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
 [![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-gedit.svg)](https://github.com/arcticicestudio/nord-gedit)  
+[![Nord Guake](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-guake-banner.svg)](https://github.com/arcticicestudio/nord-guake)  
 [![Nord IntelliJ IDEA Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-intellij-idea-syntax.svg)](https://github.com/arcticicestudio/nord-intellij-idea-syntax)  
 [![Nord Java](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-java-banner.svg)](https://github.com/arcticicestudio/nord-java)  
-[![Nord Notepad++](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-notepadplusplus.svg)](https://github.com/arcticicestudio/nord-notepadplusplus)  
+[![Nord Konsole](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-konsole-banner.svg)](https://github.com/arcticicestudio/nord-konsole)  
+[![Nord Mintty](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-mintty-banner.svg)](https://github.com/arcticicestudio/nord-mintty)  
+[![Nord PuTTY](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-putty-banner.svg)](https://github.com/arcticicestudio/nord-putty)  
+[![Nord Terminal.app](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminal-app-banner.svg)](https://github.com/arcticicestudio/nord-terminal-app)  
+[![Nord Terminator](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminator-banner.svg)](https://github.com/arcticicestudio/nord-terminator)  
 [![Nord Terminix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminix-banner.svg)](https://github.com/arcticicestudio/nord-terminix)  
+[![Nord Termite](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-termite-banner.svg)](https://github.com/arcticicestudio/nord-termite)  
 [![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-vim.svg)](https://github.com/arcticicestudio/nord-vim)
+[![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
+[![Nord Xresources](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg)](https://github.com/arcticicestudio/nord-xresources)  
 
 ## Forks
   - [Nordisk](https://github.com/kamwitsta/nordisk) by @kamwitsta
