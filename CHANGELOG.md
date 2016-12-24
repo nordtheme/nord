@@ -35,7 +35,7 @@ This design has also already been implemented in all port projects before, but i
 ### Project Documentation
 Added new official [port projects](https://github.com/arcticicestudio/nord#port-projects). (@arcticicestudio, eacf9078, 51f46d1b, d51a995b)  
 [![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
-[![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-nord-gedit.svg)](https://github.com/arcticicestudio/nord-gedit)  
+[![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gedit-banner.svg)](https://github.com/arcticicestudio/nord-gedit)  
 [![Nord Java](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-java-banner.svg)](https://github.com/arcticicestudio/nord-java)  
 [![Nord Terminix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminix-banner.svg)](https://github.com/arcticicestudio/nord-terminix)  
 
