@@ -99,6 +99,9 @@ A list of detailed information about each file format can be found [here](http:/
 ## Forks
   - [Nordisk](https://github.com/kamwitsta/nordisk) by @kamwitsta
 
+## Component Cards
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-polar-night.svg"/><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-snow-storm.svg"/><br><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-frost.svg"/><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-aurora.svg"/></p>
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.2.0-blue.svg)](https://github.com/arcticicestudio/nord/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow_Branching_Model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
