@@ -78,6 +78,7 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-syntax-banner.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-ui-banner.svg)](https://atom.io/themes/nord-atom-ui)  
 [![Nord Coda](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-coda-banner.svg)](https://github.com/arcticicestudio/nord-coda)  
+[![Nord dircolors](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-dircolors-banner.svg)](https://github.com/arcticicestudio/nord-dircolors)  
 [![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
 [![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gedit-banner.svg)](https://github.com/arcticicestudio/nord-gedit)  
 [![Nord GNOME Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gnome-terminal-banner.svg)](https://github.com/arcticicestudio/nord-gnome-terminal)  
