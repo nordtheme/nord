@@ -98,6 +98,9 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord Visual Studio Code](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-visual-studio-code-banner.svg)](https://github.com/arcticicestudio/nord-visual-studio-code)  
 [![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
 [![Nord Xresources](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg)](https://github.com/arcticicestudio/nord-xresources)  
+[![Nord Brackets](https://rawgit.com/jmyser/nord/develop/src/assets/nord-brackets-banner.svg)]
+(https://github.com/jmyser/nord-brackets)  
+
 
 ## Forks
   - [Nordisk](https://github.com/kamwitsta/nordisk) by @kamwitsta
