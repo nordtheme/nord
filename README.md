@@ -80,6 +80,7 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord Coda](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-coda-banner.svg)](https://github.com/arcticicestudio/nord-coda)  
 [![Nord dircolors](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-dircolors-banner.svg)](https://github.com/arcticicestudio/nord-dircolors)  
 [![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
+[![Nord Emacs](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-emacs-banner.svg)](https://github.com/arcticicestudio/nord-emacs)  
 [![Nord gedit](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gedit-banner.svg)](https://github.com/arcticicestudio/nord-gedit)  
 [![Nord GNOME Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gnome-terminal-banner.svg)](https://github.com/arcticicestudio/nord-gnome-terminal)  
 [![Nord Guake](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-guake-banner.svg)](https://github.com/arcticicestudio/nord-guake)  
