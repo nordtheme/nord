@@ -33,3 +33,9 @@
 # +-------+
 # Color Palette
 *.gpa binary
+
+# +-----+
+# + OSX +
+# +-----+
+# Color Palette
+*.clr binary
