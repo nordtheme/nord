@@ -4,7 +4,7 @@ title     Project Gulp File               +
 project   nord                            +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
-copyright Copyright (C) 2016              +
+copyright Copyright (C) 2017              +
 +++++++++++++++++++++++++++++++++++++++++++
 
 [References]
