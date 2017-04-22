@@ -1,24 +1,24 @@
+"use strict";
 /*
-+++++++++++++++++++++++++++++++++++++++++++
-title     Project Gulp File               +
-project   nord                            +
-author    Arctic Ice Studio               +
-email     development@arcticicestudio.com +
-copyright Copyright (C) 2017              +
-+++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Project Gulp File                       +
+project    nord                                    +
+repository https://github.com/arcticicestudio/nord +
+author     Arctic Ice Studio                       +
+email      development@arcticicestudio.com         +
+copyright  Copyright (C) 2017                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
 Gulp
-  (http://gulpjs.com)
+  http://gulpjs.com
 npmjs
-  (https://www.npmjs.com)
+  https://www.npmjs.com
 */
-
-"use strict";
 /*+---------------+
   + Configuration +
   +---------------+*/
-var config = {
+const config = {
   project: {
     id: "nord",
     name: "Nord",
@@ -54,20 +54,21 @@ var config = {
       }
     }
   }
-}
+};
+
+const javaScriptSources = ["gulpfile.js"];
 
 /*+---------+
   + Imports +
   +---------+*/
-var del          = require("del");
-var fs           = require("fs");
-var gulp         = require("gulp-help")(require("gulp"));
-var gulputil     = require("gulp-util");
-var path         = require("path");
-var plumber      = require("gulp-plumber");
-var rename       = require("gulp-rename");
-var sass         = require("gulp-sass");
-var sassdoc      = require("sassdoc");
+const del = require("del");
+const eslint = require("gulp-eslint");
+const gulp = require("gulp-help")(require("gulp"));
+const path = require("path");
+const plumber = require("gulp-plumber");
+const rename = require("gulp-rename");
+const sass = require("gulp-sass");
+const sassdoc = require("sassdoc");
 
 /*+-------+
   + Tasks +
@@ -77,7 +78,7 @@ var sassdoc      = require("sassdoc");
  *
  * @since 0.1.0
  */
-gulp.task("clean", function() {
+gulp.task("clean", "Cleans the whole build folder", () => {
   del(config.build.base);
 });
 
@@ -86,7 +87,7 @@ gulp.task("clean", function() {
  *
  * @since 0.1.0
  */
-gulp.task("clean-css", function(){
+gulp.task("clean-css", "Cleans the CSS build folder", () => {
   del(config.build.css);
 });
 
@@ -95,7 +96,7 @@ gulp.task("clean-css", function(){
  *
  * @since 0.1.0
  */
-gulp.task("clean-documentation", function(){
+gulp.task("clean-documentation", "Cleans the documentation build folder", () => {
   del(config.build.sassdoc);
 });
 
@@ -104,12 +105,12 @@ gulp.task("clean-documentation", function(){
  *
  * @since 0.1.0
  */
-gulp.task("compile-css-template", function() {
+gulp.task("compile-css-template", "Compiles the Sass CSS template", () => {
   return gulp.src(path.join(config.src.sass, "/template-css." + config.tasks.compilation.sass.extensions.input))
     .pipe(plumber())
     .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
     .pipe(rename("/nord." + config.tasks.compilation.sass.extensions.output))
-    .pipe(gulp.dest(config.build.css))
+    .pipe(gulp.dest(config.build.css));
 });
 
 /**
@@ -120,11 +121,30 @@ gulp.task("compile-css-template", function() {
 gulp.task("default", ["help"]);
 
 /**
+ * Runs all lint tasks.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint", "Runs all lint tasks", ["lint-js"]);
+
+/**
+ * Lints all JavaScript sources.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint-js", "Lints all JavaScript sources", () => {
+  return gulp.src(javaScriptSources)
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
+/**
  * Creates the Sassdoc documentation.
  *
  * @since 0.1.0
  */
-gulp.task("sassdoc", function () {
+gulp.task("sassdoc", "Creates the Sassdoc documentation", () => {
   return gulp.src(path.join(config.src.sass, "/**/*." + config.tasks.compilation.sass.extensions.input))
-    .pipe(sassdoc())
+    .pipe(sassdoc());
 });
