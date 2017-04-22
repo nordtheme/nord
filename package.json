@@ -37,8 +37,10 @@
     "gulp-plumber": "1.1.0",
     "gulp-rename": "1.2.2",
     "gulp-sass": "2.3.2",
+    "gulp-stylelint": "3.9.0",
     "gulp-util": "3.0.7",
     "sassdoc": "2.1.20",
-    "sassdoc-theme-flippant": "0.1.0"
+    "sassdoc-theme-flippant": "0.1.0",
+    "stylelint-config-standard": "16.0.0"
   }
 }
