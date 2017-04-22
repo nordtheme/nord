@@ -1,20 +1,20 @@
+"use strict";
 /*
-+++++++++++++++++++++++++++++++++++++++++++
-title     Project Gulp File               +
-project   nord                            +
-author    Arctic Ice Studio               +
-email     development@arcticicestudio.com +
-copyright Copyright (C) 2017              +
-+++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Project Gulp File                       +
+project    nord                                    +
+repository https://github.com/arcticicestudio/nord +
+author     Arctic Ice Studio                       +
+email      development@arcticicestudio.com         +
+copyright  Copyright (C) 2017                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
 Gulp
-  (http://gulpjs.com)
+  http://gulpjs.com
 npmjs
-  (https://www.npmjs.com)
+  https://www.npmjs.com
 */
-
-"use strict";
 /*+---------------+
   + Configuration +
   +---------------+*/
@@ -77,7 +77,7 @@ var sassdoc      = require("sassdoc");
  *
  * @since 0.1.0
  */
-gulp.task("clean", function() {
+gulp.task("clean", "Cleans the whole build folder", function() {
   del(config.build.base);
 });
 
@@ -86,7 +86,7 @@ gulp.task("clean", function() {
  *
  * @since 0.1.0
  */
-gulp.task("clean-css", function(){
+gulp.task("clean-css", "Cleans the CSS build folder", function() {
   del(config.build.css);
 });
 
@@ -95,7 +95,7 @@ gulp.task("clean-css", function(){
  *
  * @since 0.1.0
  */
-gulp.task("clean-documentation", function(){
+gulp.task("clean-documentation", "Cleans the documentation build folder", function() {
   del(config.build.sassdoc);
 });
 
@@ -104,7 +104,7 @@ gulp.task("clean-documentation", function(){
  *
  * @since 0.1.0
  */
-gulp.task("compile-css-template", function() {
+gulp.task("compile-css-template", "Compiles the Sass CSS template", function() {
   return gulp.src(path.join(config.src.sass, "/template-css." + config.tasks.compilation.sass.extensions.input))
     .pipe(plumber())
     .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
@@ -124,7 +124,7 @@ gulp.task("default", ["help"]);
  *
  * @since 0.1.0
  */
-gulp.task("sassdoc", function () {
+gulp.task("sassdoc", "Creates the Sassdoc documentation", function() {
   return gulp.src(path.join(config.src.sass, "/**/*." + config.tasks.compilation.sass.extensions.input))
     .pipe(sassdoc())
 });
