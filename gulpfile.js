@@ -57,6 +57,7 @@ const config = {
 };
 
 const javaScriptSources = ["gulpfile.js"];
+const lesscssSources = ["src/lesscss/**/*.less"];
 
 /*+---------+
   + Imports +
@@ -69,6 +70,7 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const sassdoc = require("sassdoc");
+const stylelint = require("gulp-stylelint");
 
 /*+-------+
   + Tasks +
@@ -125,7 +127,7 @@ gulp.task("default", ["help"]);
  *
  * @since 0.3.0
  */
-gulp.task("lint", "Runs all lint tasks", ["lint-js"]);
+gulp.task("lint", "Runs all lint tasks", ["lint-js", "lint-lesscss"]);
 
 /**
  * Lints all JavaScript sources.
@@ -137,6 +139,21 @@ gulp.task("lint-js", "Lints all JavaScript sources", () => {
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
+});
+
+/**
+ * Lints all LESSCSS sources.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint-lesscss", "Lints all LESSCSS sources", () => {
+  return gulp.src(lesscssSources)
+    .pipe(stylelint({
+      failAfterError: true,
+      reporters: [
+        {formatter: "verbose", console: true}
+      ]
+    }));
 });
 
 /**
