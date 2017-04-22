@@ -9,15 +9,23 @@
 #
 # [References]
 # Circle CI
-#   (https://circleci.com/docs)
+#   https://circleci.com/docs
+machine:
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 machine:
   node:
-    version: 6.1.0
+    version: 7
 dependencies:
+  pre:
+    - rm -rf ./node_modules
   override:
-    - npm install -g gulp
+    - npm install -g gulp-cli
+    - npm install gulp
     - npm install
 test:
   override:
-    - gulp compile-css-template sassdoc
+    - gulp --harmony lint
+    - gulp --harmony compile-css-template
+    - gulp --harmony sassdoc
     - find . -maxdepth 2 -type d -regextype posix-egrep -regex ".*/build/(.*)" -exec cp -r {} $CIRCLE_ARTIFACTS \;
