@@ -97,6 +97,7 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord Terminator](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminator-banner.svg)](https://github.com/arcticicestudio/nord-terminator)  
 [![Nord Termite](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-termite-banner.svg)](https://github.com/arcticicestudio/nord-termite)  
 [![Nord Tilix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg)](https://github.com/arcticicestudio/nord-tilix)  
+[![Nord tmux](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tmux-banner.svg)](https://github.com/arcticicestudio/nord-tmux)  
 [![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-vim-banner.svg)](https://github.com/arcticicestudio/nord-vim)  
 [![Nord Visual Studio Code](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-visual-studio-code-banner.svg)](https://github.com/arcticicestudio/nord-visual-studio-code)  
 [![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
