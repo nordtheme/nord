@@ -56,10 +56,13 @@ const config = {
   }
 };
 
+const javaScriptSources = ["gulpfile.js"];
+
 /*+---------+
   + Imports +
   +---------+*/
 const del = require("del");
+const eslint = require("gulp-eslint");
 const gulp = require("gulp-help")(require("gulp"));
 const path = require("path");
 const plumber = require("gulp-plumber");
@@ -116,6 +119,25 @@ gulp.task("compile-css-template", "Compiles the Sass CSS template", () => {
  * @since 0.1.0
  */
 gulp.task("default", ["help"]);
+
+/**
+ * Runs all lint tasks.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint", "Runs all lint tasks", ["lint-js"]);
+
+/**
+ * Lints all JavaScript sources.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint-js", "Lints all JavaScript sources", () => {
+  return gulp.src(javaScriptSources)
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
 
 /**
  * Creates the Sassdoc documentation.
