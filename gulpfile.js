@@ -18,7 +18,7 @@ npmjs
 /*+---------------+
   + Configuration +
   +---------------+*/
-var config = {
+const config = {
   project: {
     id: "nord",
     name: "Nord",
@@ -54,20 +54,20 @@ var config = {
       }
     }
   }
-}
+};
 
 /*+---------+
   + Imports +
   +---------+*/
-var del          = require("del");
-var fs           = require("fs");
-var gulp         = require("gulp-help")(require("gulp"));
-var gulputil     = require("gulp-util");
-var path         = require("path");
-var plumber      = require("gulp-plumber");
-var rename       = require("gulp-rename");
-var sass         = require("gulp-sass");
-var sassdoc      = require("sassdoc");
+const del = require("del");
+const fs = require("fs");
+const gulp = require("gulp-help")(require("gulp"));
+const gulputil = require("gulp-util");
+const path = require("path");
+const plumber = require("gulp-plumber");
+const rename = require("gulp-rename");
+const sass = require("gulp-sass");
+const sassdoc = require("sassdoc");
 
 /*+-------+
   + Tasks +
@@ -109,7 +109,7 @@ gulp.task("compile-css-template", "Compiles the Sass CSS template", function() {
     .pipe(plumber())
     .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
     .pipe(rename("/nord." + config.tasks.compilation.sass.extensions.output))
-    .pipe(gulp.dest(config.build.css))
+    .pipe(gulp.dest(config.build.css));
 });
 
 /**
@@ -126,5 +126,5 @@ gulp.task("default", ["help"]);
  */
 gulp.task("sassdoc", "Creates the Sassdoc documentation", function() {
   return gulp.src(path.join(config.src.sass, "/**/*." + config.tasks.compilation.sass.extensions.input))
-    .pipe(sassdoc())
+    .pipe(sassdoc());
 });
