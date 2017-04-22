@@ -68,6 +68,7 @@ Information about the generation of a styleguide can be found in the [official K
 Nord is available in various native formats:
   - `.aco` Adobe Photoshop Palette
   - `.ase` Adobe Swatch Exchange
+  - `.clr` OSX color palette
   - `.gpa` Gpick Palette
   - `.gpl` GIMP/Inkscape/CinePaint/Krita Palette
   - `.mtl` Alias/WaveFront Material
