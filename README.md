@@ -78,6 +78,7 @@ A list of detailed information about each file format can be found [here](http:/
 ## Port Projects
 [![Nord Atom Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-syntax-banner.svg)](https://atom.io/themes/nord-atom-syntax)  
 [![Nord Atom UI](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-ui-banner.svg)](https://atom.io/themes/nord-atom-ui)  
+[![Nord Brackets](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-brackets-banner.svg)](https://github.com/arcticicestudio/nord-brackets)  
 [![Nord Coda](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-coda-banner.svg)](https://github.com/arcticicestudio/nord-coda)  
 [![Nord dircolors](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-dircolors-banner.svg)](https://github.com/arcticicestudio/nord-dircolors)  
 [![Nord Eclipse Syntax](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg)](https://github.com/arcticicestudio/nord-eclipse-syntax)  
@@ -94,8 +95,8 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord PuTTY](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-putty-banner.svg)](https://github.com/arcticicestudio/nord-putty)  
 [![Nord Terminal.app](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminal-app-banner.svg)](https://github.com/arcticicestudio/nord-terminal-app)  
 [![Nord Terminator](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminator-banner.svg)](https://github.com/arcticicestudio/nord-terminator)  
-[![Nord Tilix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg)](https://github.com/arcticicestudio/nord-tilix)  
 [![Nord Termite](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-termite-banner.svg)](https://github.com/arcticicestudio/nord-termite)  
+[![Nord Tilix](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg)](https://github.com/arcticicestudio/nord-tilix)  
 [![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-vim-banner.svg)](https://github.com/arcticicestudio/nord-vim)  
 [![Nord Visual Studio Code](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-visual-studio-code-banner.svg)](https://github.com/arcticicestudio/nord-visual-studio-code)  
 [![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
