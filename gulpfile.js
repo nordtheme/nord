@@ -58,6 +58,7 @@ const config = {
 
 const javaScriptSources = ["gulpfile.js"];
 const lesscssSources = ["src/lesscss/**/*.less"];
+const scssSources = ["src/sass/**/*.scss"];
 
 /*+---------+
   + Imports +
@@ -127,7 +128,7 @@ gulp.task("default", ["help"]);
  *
  * @since 0.3.0
  */
-gulp.task("lint", "Runs all lint tasks", ["lint-js", "lint-lesscss"]);
+gulp.task("lint", "Runs all lint tasks", ["lint-js", "lint-lesscss", "lint-scss"]);
 
 /**
  * Lints all JavaScript sources.
@@ -148,6 +149,21 @@ gulp.task("lint-js", "Lints all JavaScript sources", () => {
  */
 gulp.task("lint-lesscss", "Lints all LESSCSS sources", () => {
   return gulp.src(lesscssSources)
+    .pipe(stylelint({
+      failAfterError: true,
+      reporters: [
+        {formatter: "verbose", console: true}
+      ]
+    }));
+});
+
+/**
+ * Lints all Sass SCSS sources.
+ *
+ * @since 0.3.0
+ */
+gulp.task("lint-scss", "Lints all Sass SCSS sources", () => {
+  return gulp.src(scssSources)
     .pipe(stylelint({
       failAfterError: true,
       reporters: [
