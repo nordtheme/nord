@@ -60,9 +60,7 @@ const config = {
   + Imports +
   +---------+*/
 const del = require("del");
-const fs = require("fs");
 const gulp = require("gulp-help")(require("gulp"));
-const gulputil = require("gulp-util");
 const path = require("path");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
