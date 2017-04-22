@@ -75,7 +75,7 @@ const sassdoc = require("sassdoc");
  *
  * @since 0.1.0
  */
-gulp.task("clean", "Cleans the whole build folder", function() {
+gulp.task("clean", "Cleans the whole build folder", () => {
   del(config.build.base);
 });
 
@@ -84,7 +84,7 @@ gulp.task("clean", "Cleans the whole build folder", function() {
  *
  * @since 0.1.0
  */
-gulp.task("clean-css", "Cleans the CSS build folder", function() {
+gulp.task("clean-css", "Cleans the CSS build folder", () => {
   del(config.build.css);
 });
 
@@ -93,7 +93,7 @@ gulp.task("clean-css", "Cleans the CSS build folder", function() {
  *
  * @since 0.1.0
  */
-gulp.task("clean-documentation", "Cleans the documentation build folder", function() {
+gulp.task("clean-documentation", "Cleans the documentation build folder", () => {
   del(config.build.sassdoc);
 });
 
@@ -102,7 +102,7 @@ gulp.task("clean-documentation", "Cleans the documentation build folder", functi
  *
  * @since 0.1.0
  */
-gulp.task("compile-css-template", "Compiles the Sass CSS template", function() {
+gulp.task("compile-css-template", "Compiles the Sass CSS template", () => {
   return gulp.src(path.join(config.src.sass, "/template-css." + config.tasks.compilation.sass.extensions.input))
     .pipe(plumber())
     .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
@@ -122,7 +122,7 @@ gulp.task("default", ["help"]);
  *
  * @since 0.1.0
  */
-gulp.task("sassdoc", "Creates the Sassdoc documentation", function() {
+gulp.task("sassdoc", "Creates the Sassdoc documentation", () => {
   return gulp.src(path.join(config.src.sass, "/**/*." + config.tasks.compilation.sass.extensions.input))
     .pipe(sassdoc());
 });
