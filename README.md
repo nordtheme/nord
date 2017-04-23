@@ -101,6 +101,7 @@ A list of detailed information about each file format can be found [here](http:/
 [![Nord Vim](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-vim-banner.svg)](https://github.com/arcticicestudio/nord-vim)  
 [![Nord Visual Studio Code](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-visual-studio-code-banner.svg)](https://github.com/arcticicestudio/nord-visual-studio-code)  
 [![Nord XFCE Terminal](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg)](https://github.com/arcticicestudio/nord-xfce-terminal)  
+[![Nord Xcode](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xcode-banner.svg)](https://github.com/arcticicestudio/nord-xcode)  
 [![Nord Xresources](https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg)](https://github.com/arcticicestudio/nord-xresources)  
 
 ## Forks
