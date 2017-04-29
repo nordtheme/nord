@@ -10,6 +10,8 @@ copyright  Copyright (C) 2017                      +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [References]
+Babel
+  https://babeljs.io
 Gulp
   http://gulpjs.com
 npmjs
@@ -30,7 +32,8 @@ const config = {
   build: {
     base: "./build",
     css: "./build/css",
-    sassdoc: "./build/documentation/sassdoc"
+    jsdoc: "./build/docs/jsdoc",
+    sassdoc: "./build/docs/sassdoc"
   },
   src: {
     sass: "./src/sass"
@@ -56,7 +59,7 @@ const config = {
   }
 };
 
-const javaScriptSources = ["gulpfile.js"];
+const javaScriptSources = ["gulpfile.js", "src/js/**/*.js"];
 const lesscssSources = ["src/lesscss/**/*.less"];
 const scssSources = ["src/sass/**/*.scss"];
 
@@ -66,6 +69,7 @@ const scssSources = ["src/sass/**/*.scss"];
 const del = require("del");
 const eslint = require("gulp-eslint");
 const gulp = require("gulp-help")(require("gulp"));
+const jsdoc = require("gulp-jsdoc3");
 const path = require("path");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
@@ -99,8 +103,17 @@ gulp.task("clean-css", "Cleans the CSS build folder", () => {
  *
  * @since 0.1.0
  */
-gulp.task("clean-documentation", "Cleans the documentation build folder", () => {
+gulp.task("clean-docs", "Cleans the documentation build folder", () => {
   del(config.build.sassdoc);
+});
+
+/**
+ * Cleans the test documentation build folder.
+ *
+ * @since 0.3.0
+ */
+gulp.task("clean-test-docs", "Cleans the test documentation build folder", () => {
+  del(config.build.jsdoc);
 });
 
 /**
@@ -122,6 +135,24 @@ gulp.task("compile-css-template", "Compiles the Sass CSS template", () => {
  * @since 0.1.0
  */
 gulp.task("default", ["help"]);
+
+/**
+ * Creates the JSDocs.
+ *
+ * @since 0.3.0
+ */
+gulp.task("jsdoc", "Creates the JSDocs", () => {
+  gulp.src(javaScriptSources)
+    .pipe(jsdoc({
+      opts: {
+        destination: config.build.jsdoc,
+        template: "./node_modules/minami"
+      },
+      tags: {
+        allowUnknownTags: false
+      }
+    }));
+});
 
 /**
  * Runs all lint tasks.
