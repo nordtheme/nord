@@ -27,6 +27,10 @@ before_script:
   - npm install gulp
   - npm install
 script:
+  - gulp --harmony clean
   - gulp --harmony lint
+  - gulp --harmony compile-babel-js
+  - npm run test
   - gulp --harmony compile-css-template
   - gulp --harmony sassdoc
+  - gulp --harmony jsdoc

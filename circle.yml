@@ -25,7 +25,11 @@ dependencies:
     - npm install
 test:
   override:
+    - gulp --harmony clean
     - gulp --harmony lint
+    - gulp --harmony compile-babel-js
+    - npm run test
     - gulp --harmony compile-css-template
     - gulp --harmony sassdoc
+    - gulp --harmony jsdoc
     - find . -maxdepth 2 -type d -regextype posix-egrep -regex ".*/build/(.*)" -exec cp -r {} $CIRCLE_ARTIFACTS \;
