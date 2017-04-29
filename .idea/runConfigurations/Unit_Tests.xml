@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unit Tests" type="JavaScriptTestRunnerJest" factoryName="Jest">
+    <node-interpreter value="project" />
+    <working-dir value="$PROJECT_DIR$" />
+    <envs />
+    <scope-kind value="TEST_FILE" />
+    <test-file value="$PROJECT_DIR$/src/js/nord.test.js" />
+    <method />
+  </configuration>
+</component>

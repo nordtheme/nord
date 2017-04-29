@@ -21,3 +21,12 @@ build
 # +------+
 .sass-cache
 *.css.map
+
+# +----------+
+# + WebStorm +
+# +----------+
+.idea/*
+!.idea/runConfigurations
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
