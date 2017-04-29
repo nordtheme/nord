@@ -29,9 +29,11 @@
     "syntax"
   ],
   "devDependencies": {
+    "babel-jest": "19.0.0",
     "babel-preset-env": "1.4.0",
     "del": "2.2.2",
     "eslint": "3.15.0",
+    "eslint-plugin-jest": "19.0.1",
     "gulp": "3.9.1",
     "gulp-babel": "6.1.2",
     "gulp-eslint": "3.0.1",
@@ -42,9 +44,24 @@
     "gulp-sass": "2.3.2",
     "gulp-stylelint": "3.9.0",
     "gulp-util": "3.0.7",
+    "jest": "19.0.2",
+    "jest-cli": "19.0.2",
     "minami": "1.2.3",
     "sassdoc": "2.1.20",
     "sassdoc-theme-flippant": "0.1.0",
     "stylelint-config-standard": "16.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ],
+    "coverageDirectory": "build/test/docs/jest/coverage"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

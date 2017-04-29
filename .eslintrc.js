@@ -20,13 +20,16 @@ module.exports = {
   "env": {
     "node": true,
     "es6": true,
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {}
   },
-  "plugins": [],
+  "plugins": [
+    "jest"
+  ],
   "extends": [
     "eslint:recommended"
   ],
@@ -71,6 +74,10 @@ module.exports = {
       },
       "requireParamDescription": true,
       "requireReturnDescription": true
-    }]
+    }],
+    // Unit Tests
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error"
   }
-}
+};
