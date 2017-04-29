@@ -32,11 +32,13 @@ const config = {
   build: {
     base: "./build",
     css: "./build/css",
+    js: "./build/js",
     jsdoc: "./build/docs/jsdoc",
     sassdoc: "./build/docs/sassdoc"
   },
   src: {
-    sass: "./src/sass"
+    sass: "./src/sass",
+    js: "./src/js"
   },
   tasks: {
     compilation: {
@@ -66,6 +68,7 @@ const scssSources = ["src/sass/**/*.scss"];
 /*+---------+
   + Imports +
   +---------+*/
+const babel = require("gulp-babel");
 const del = require("del");
 const eslint = require("gulp-eslint");
 const gulp = require("gulp-help")(require("gulp"));
@@ -108,6 +111,15 @@ gulp.task("clean-docs", "Cleans the documentation build folder", () => {
 });
 
 /**
+ * Cleans the JavaScript build folder.
+ *
+ * @since 0.3.0
+ */
+gulp.task("clean-js", "Cleans the JavaScript build folder", () => {
+  del(config.build.js);
+});
+
+/**
  * Cleans the test documentation build folder.
  *
  * @since 0.3.0
@@ -127,6 +139,17 @@ gulp.task("compile-css-template", "Compiles the Sass CSS template", () => {
     .pipe(sass(config.tasks.compilation.sass.options).on("error", sass.logError))
     .pipe(rename("/nord." + config.tasks.compilation.sass.extensions.output))
     .pipe(gulp.dest(config.build.css));
+});
+
+/**
+ * Compiles all Babel JavaScript sources
+ *
+ * @since 0.3.0
+ */
+gulp.task("compile-babel-js", "Compiles all Babel JavaScript sources", () => {
+  gulp.src(path.join(config.src.js, "nord.js"))
+    .pipe(babel())
+    .pipe(gulp.dest(config.build.js));
 });
 
 /**
