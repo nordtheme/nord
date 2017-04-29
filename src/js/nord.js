@@ -209,3 +209,47 @@ const NORD = Object.freeze({
 });
 
 export default NORD;
+
+/**
+ * The "Polar Night" component.
+ * Consists of {@link NORD.nord0}, {@link NORD.nord1}, {@link NORD.nord2} and {@link NORD.nord3}.
+ */
+export const POLARNIGHT = Object.freeze({
+  nord0: NORD.nord0,
+  nord1: NORD.nord1,
+  nord2: NORD.nord2,
+  nord3: NORD.nord3
+});
+
+/**
+ * The "Snow Storm" component.
+ * Consists of {@link NORD.nord4}, {@link NORD.nord5} and {@link NORD.nord6}.
+ */
+export const SNOWSTORM = Object.freeze({
+  nord4: NORD.nord4,
+  nord5: NORD.nord5,
+  nord6: NORD.nord6
+});
+
+/**
+ * The "Frost" component.
+ * Consists of {@link NORD.nord7}, {@link NORD.nord8}, {@link NORD.nord9} and {@link NORD.nord10}.
+ */
+export const FROST = Object.freeze({
+  nord7: NORD.nord7,
+  nord8: NORD.nord8,
+  nord9: NORD.nord9,
+  nord10: NORD.nord10
+});
+
+/**
+ * The "Aurora" component.
+ * Consists of {@link NORD.nord11}, {@link NORD.nord12}, {@link NORD.nord13}, {@link NORD.nord14} and {@link NORD.nord15}.
+ */
+export const AURORA = Object.freeze({
+  nord11: NORD.nord11,
+  nord12: NORD.nord12,
+  nord13: NORD.nord13,
+  nord14: NORD.nord14,
+  nord15: NORD.nord15
+});
