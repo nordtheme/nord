@@ -26,6 +26,7 @@ build
 # + WebStorm +
 # +----------+
 .idea/*
+!.idea/*.iml
 !.idea/runConfigurations
 !.idea/misc.xml
 !.idea/modules.xml
