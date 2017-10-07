@@ -60,8 +60,19 @@ Copy the `nord.less` file into your project and import it in your [LESSCSS](http
 ```
 Information about how the `@import` statement handles imports with different file extensions can be found in the [official LESSCSS documentation](http://lesscss.org/features/#import-directives-feature).
 
+### <img src="http://stylus-lang.com/favicon.ico" width=16 height=16 /> Stylus
+
+Copy the [`nord.styl`][nord-stylus] file into your project and import it in your [Stylus][stylus] files by either using `@require` or `@import`:
+
+```stylus
+@require "nord";
+```
+
+Information about how the `@require` and `@import` statement handles imports with different file extensions and directory structures can be found in the [official Stylus documentation][stylus-import].
+
 #### KSS
-Nord LESSCSS sources are documented using the [KSS](http://warpspire.com/kss) documentation syntax.  
+Nord LESSCSS- and Stylus sources are documented using the [KSS](http://warpspire.com/kss) documentation syntax.
+
 Information about the generation of a styleguide can be found in the [official KSS documentation](http://warpspire.com/kss/styleguides).
 
 ### <img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg"/> Color Swatches
@@ -123,3 +134,6 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 <p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-blue.svg"/></a></p>
 
 [gulp]: http://gulpjs.com
+[nord-stylus]: https://github.com/arcticicestudio/nord/blob/develop/src/stylus/nord.styl
+[stylus]: http://stylus-lang.com
+[stylus-import]: http://stylus-lang.com/docs/import.html#stylus-import
