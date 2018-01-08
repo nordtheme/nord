@@ -1,0 +1,38 @@
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord
+# Repository: https://github.com/arcticicestudio/nord
+# License:    MIT
+# References:
+#   https://circleci.com/docs/2.0
+#   https://circleci.com/docs/2.0/circleci-images/#nodejs
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.7
+    steps:
+      - checkout
+      - run:
+          name: clean-node-modules
+          command: rm -rf node_modules
+      - run:
+          name: install-global-gulp-cli
+          command: sudo npm install -g gulp-cli
+      - run:
+          name: npm-install
+          command: npm install
+      - run:
+          name: lint
+          command: gulp --harmony lint
+      - run:
+          name: compile-css-template
+          command: gulp --harmony compile-css-template
+      - run:
+          name: generate-sassdoc
+          command: gulp --harmony sassdoc
+      - run:
+          name: collect-artifacts
+          command: find . -maxdepth 2 -type d -regextype posix-egrep -regex ".*/build/(.*)" -exec cp -r {} $CIRCLE_ARTIFACTS \;
