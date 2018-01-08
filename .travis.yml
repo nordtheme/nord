@@ -5,7 +5,7 @@
 # Repository: https://github.com/arcticicestudio/nord
 # License:    MIT
 # References:
-#   https://docs.travis-ci.com
+#   https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 
 language: node_js
 dist: trusty
@@ -13,7 +13,7 @@ sudo: false
 node_js:
   - "4"
   - "6"
-  - "7"
+  - "8"
 os:
   - linux
   - osx
@@ -21,7 +21,6 @@ before_install:
   - rm -rf ./node_modules
 before_script:
   - npm install -g gulp-cli
-  - npm install gulp
   - npm install
 script:
   - gulp --harmony lint
