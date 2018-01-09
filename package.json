@@ -28,9 +28,16 @@
     "ui",
     "syntax"
   ],
+  "scripts": {
+    "docs:build": "npm run docs:clean && gitbook install ./docs && gitbook build ./docs ./build/docs",
+    "docs:clean": "node_modules/.bin/del ./build/docs",
+    "docs:dev": "npm run docs:build && gitbook serve ./docs ./build/docs"
+  },
   "devDependencies": {
     "del": "3.0.0",
+    "del-cli": "1.1.0",
     "eslint": "4.15.0",
+    "gitbook-cli": "2.3.2",
     "gulp": "3.9.1",
     "gulp-eslint": "4.0.1",
     "gulp-help": "1.6.1",
