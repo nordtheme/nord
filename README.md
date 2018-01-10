@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-logo-banner.svg"/></p>
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/v/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dt/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dm/nord.svg?style=flat-square"/></a></p>
 
@@ -15,7 +15,7 @@ It consists of a total of sixteen, carefully selected, dimmed pastel colors for 
 
 <p align="center">The color palette it divided into four named components to represent the different color effects.</p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
 
 Nord colors are numbered from `nord0` to `nord15` where each component contains a different amount of colors:
 
@@ -175,13 +175,13 @@ When using the [optimized Nord CSS module][ghio-docs-dev-building-optimize-css-m
 
 ## Component Cards
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-polar-night.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-polar-night.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-snow-storm.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-snow-storm.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-frost.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-frost.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-aurora.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-aurora.svg"/></p>
 
 ## Contributing
 
@@ -189,7 +189,7 @@ Read the [contributing guide][ghio-docs-dev-contributing] to learn about the dev
 
 The guide also includes information about [minimal, complete, and verifiable examples][ghio-docs-dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][ghio-docs-dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][ghio-docs-dev-contributing-other-feedback].
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg" /></p>
 
 <p align="center">Copyright &copy; 2016-present Arctic Ice Studio</p>
 
@@ -198,40 +198,40 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [adobe-help-color-swatches]: https://helpx.adobe.com/illustrator/using/using-creating-swatches.html
 [adobe-photoshop]: http://adobe.com/products/photoshop
 [apple-macos-design-guidelines-color]: https://developer.apple.com/macos/human-interface-guidelines/visual-design/color
-[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg
-[assets-port-banner-alacritty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-alacritty-banner.svg
-[assets-port-banner-atom-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-syntax-banner.svg
-[assets-port-banner-atom-ui]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-atom-ui-banner.svg
-[assets-port-banner-brackets]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-brackets-banner.svg
-[assets-port-banner-coda]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-coda-banner.svg
-[assets-port-banner-conemu]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-conemu-banner.svg
-[assets-port-banner-dircolors]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-dircolors-banner.svg
-[assets-port-banner-eclipse-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg
-[assets-port-banner-emacs]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-emacs-banner.svg
-[assets-port-banner-gedit]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gedit-banner.svg
-[assets-port-banner-gnome-terminal]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gnome-terminal-banner.svg
-[assets-port-banner-guake]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-guake-banner.svg
-[assets-port-banner-highlightjs]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-highlightjs-banner.svg
-[assets-port-banner-hyper]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-hyper-banner.svg
-[assets-port-banner-iterm2]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-iterm2-banner.svg
-[assets-port-banner-java]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-java-banner.svg
-[assets-port-banner-jetbrains-editor]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-jetbrains-editor-banner.svg
-[assets-port-banner-konsole]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-konsole-banner.svg
-[assets-port-banner-mintty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-mintty-banner.svg
-[assets-port-banner-notepadplusplus]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-notepadplusplus-banner.svg
-[assets-port-banner-putty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-putty-banner.svg
-[assets-port-banner-slack]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-slack-banner.svg
-[assets-port-banner-sublime-text]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-sublime-text-banner.svg
-[assets-port-banner-terminal-app]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminal-app-banner.svg
-[assets-port-banner-terminator]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-terminator-banner.svg
-[assets-port-banner-termite]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-termite-banner.svg
-[assets-port-banner-tilix]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg
-[assets-port-banner-tmux]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tmux-banner.svg
-[assets-port-banner-vim]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-vim-banner.svg
-[assets-port-banner-visual-studio-code]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-visual-studio-code-banner.svg
-[assets-port-banner-xcode]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xcode-banner.svg
-[assets-port-banner-xfce-terminal]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xfce-terminal-banner.svg
-[assets-port-banner-xresources]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-xresources-banner.svg
+[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/icon-color-swatch.svg
+[assets-port-banner-alacritty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-alacritty-banner.svg
+[assets-port-banner-atom-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-atom-syntax-banner.svg
+[assets-port-banner-atom-ui]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-atom-ui-banner.svg
+[assets-port-banner-brackets]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-brackets-banner.svg
+[assets-port-banner-coda]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-coda-banner.svg
+[assets-port-banner-conemu]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-conemu-banner.svg
+[assets-port-banner-dircolors]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-dircolors-banner.svg
+[assets-port-banner-eclipse-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-eclipse-syntax-banner.svg
+[assets-port-banner-emacs]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-emacs-banner.svg
+[assets-port-banner-gedit]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-gedit-banner.svg
+[assets-port-banner-gnome-terminal]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-gnome-terminal-banner.svg
+[assets-port-banner-guake]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-guake-banner.svg
+[assets-port-banner-highlightjs]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-highlightjs-banner.svg
+[assets-port-banner-hyper]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-hyper-banner.svg
+[assets-port-banner-iterm2]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-iterm2-banner.svg
+[assets-port-banner-java]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-java-banner.svg
+[assets-port-banner-jetbrains-editor]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-jetbrains-editor-banner.svg
+[assets-port-banner-konsole]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-konsole-banner.svg
+[assets-port-banner-mintty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-mintty-banner.svg
+[assets-port-banner-notepadplusplus]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-notepadplusplus-banner.svg
+[assets-port-banner-putty]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-putty-banner.svg
+[assets-port-banner-slack]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-slack-banner.svg
+[assets-port-banner-sublime-text]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-sublime-text-banner.svg
+[assets-port-banner-terminal-app]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-terminal-app-banner.svg
+[assets-port-banner-terminator]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-terminator-banner.svg
+[assets-port-banner-termite]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-termite-banner.svg
+[assets-port-banner-tilix]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-tilix-banner.svg
+[assets-port-banner-tmux]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-tmux-banner.svg
+[assets-port-banner-vim]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-vim-banner.svg
+[assets-port-banner-visual-studio-code]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-visual-studio-code-banner.svg
+[assets-port-banner-xcode]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-xcode-banner.svg
+[assets-port-banner-xfce-terminal]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-xfce-terminal-banner.svg
+[assets-port-banner-xresources]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-xresources-banner.svg
 [atom-pkg-atom-syntax]: https://atom.io/themes/nord-atom-syntax
 [atom-pkg-atom-ui]: https://atom.io/themes/nord-atom-ui
 [base16]: http://chriskempson.com/projects/base16
