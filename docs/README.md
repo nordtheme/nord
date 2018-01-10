@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-logo-banner.svg"/></p>
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/v/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dt/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dm/nord.svg?style=flat-square"/></a></p>
 
@@ -13,7 +13,7 @@ It consists of a total of sixteen, carefully selected, dimmed pastel colors for 
 
 <p align="center">The color palette it divided into four named components to represent the different color effects.</p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
 
 Nord colors are numbered from `nord0` to `nord15` where each component contains a different amount of colors:
 
@@ -36,7 +36,7 @@ Read the [contributing guide][dev-contributing] to learn about the development p
 
 The guide also includes information about [minimal, complete, and verifiable examples][dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][dev-contributing-other-feedback].
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg" /></p>
 
 <p align="center">Copyright &copy; 2016-present Arctic Ice Studio</p>
 

@@ -16,7 +16,7 @@ The color palette can be easily used by [downloading the latest version of the f
 [adobe-help-color-swatches]: https://helpx.adobe.com/illustrator/using/using-creating-swatches.html
 [adobe-photoshop]: http://adobe.com/products/photoshop
 [apple-macos-design-guidelines-color]: https://developer.apple.com/macos/human-interface-guidelines/visual-design/color
-[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg
+[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/icon-color-swatch.svg
 [gh-tree-src-native]: https://github.com/arcticicestudio/nord/tree/develop/src/native
 [gimp-doc-color-palette]: https://docs.gimp.org/en/gimp-concepts-palettes.html
 [gpick]: http://gpick.org

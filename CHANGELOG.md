@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-logo-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-logo-banner.svg"/></p>
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/v/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dt/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dm/nord.svg?style=flat-square"/></a></p>
 
@@ -29,13 +29,13 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 
 ❯ Added new SVG variations of the color palette components. These can be used for showcases or any kind of branding concepts. (78ef70b8)
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-polar-night.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-polar-night.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-snow-storm.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-snow-storm.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-frost.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-frost.svg"/></p>
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-component-aurora.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-component-aurora.svg"/></p>
 
 #### Port Projects
 
@@ -63,7 +63,7 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 
 > Detailed information about features and the project can be found in the [project documentation][ghio-docs].
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-overview.svg" alt="Nord Palette Overview"/></p>
 
 ## Features
 
@@ -89,7 +89,7 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 
 ![Project Initialization: 2016-09-04](https://img.shields.io/badge/Project_Initialization-2016--09--04-88C0D0.svg?style=flat-square)
 
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains.svg" /></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/banner-footer-mountains.svg" /></p>
 
 <p align="center">Copyright &copy; 2016-present Arctic Ice Studio</p>
 
@@ -98,11 +98,11 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 [adobe-help-color-swatches]: https://helpx.adobe.com/illustrator/using/using-creating-swatches.html
 [adobe-photoshop]: http://adobe.com/products/photoshop
 [apple-macos-design-guidelines-color]: https://developer.apple.com/macos/human-interface-guidelines/visual-design/color
-[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/icon-color-swatch.svg
-[assets-port-banner-eclipse-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-eclipse-syntax-banner.svg
-[assets-port-banner-gedit]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-gedit-banner.svg
-[assets-port-banner-java]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-java-banner.svg
-[assets-port-banner-tilix]: https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/nord-tilix-banner.svg
+[assets-color-swatch]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/icon-color-swatch.svg
+[assets-port-banner-eclipse-syntax]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-eclipse-syntax-banner.svg
+[assets-port-banner-gedit]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-gedit-banner.svg
+[assets-port-banner-java]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-java-banner.svg
+[assets-port-banner-tilix]: https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-tilix-banner.svg
 [ci-circleci]: https://circleci.com/gh/arcticicestudio/nord
 [ci-travisci]: https://travis-ci.org/arcticicestudio/nord
 [gh-repo-nord-eclipse-syntax]: https://github.com/arcticicestudio/nord-eclipse-syntax
