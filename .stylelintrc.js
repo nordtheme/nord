@@ -14,7 +14,7 @@
 module.exports = {
   "extends": "stylelint-config-standard",
   "rules": {
-    "color-hex-case": "upper",
+    "color-hex-case": "lower",
     "comment-empty-line-before": null,
     "selector-pseudo-element-colon-notation": "single"
   }

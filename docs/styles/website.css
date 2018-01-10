@@ -16,13 +16,13 @@
 
 /* Sidebar links */
 .book .book-summary nav ul.summary li a {
-  color: #444444;
+  color: #444;
   text-decoration: none;
 }
 
 .book .book-summary nav ul.summary li a:hover,
 .book .book-summary nav ul.summary li a:focus {
-  color: #000000;
+  color: #000;
 }
 
 .book .book-summary nav ul.summary li.active > a {

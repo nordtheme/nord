@@ -14,7 +14,8 @@ pids
 # +-------------------+
 # + Project Structure +
 # +-------------------+
-build
+build/
+dist/
 
 # +------+
 # + Sass +

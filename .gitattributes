@@ -20,6 +20,11 @@
 # Color Palette
 *.aco binary
 
+# +--------+
+# + Assets +
+# +--------+
+*.png binary
+
 # +---------------+
 # + GIMP/Inkscape +
 # +---------------+

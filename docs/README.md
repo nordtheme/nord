@@ -32,7 +32,7 @@ The development chapters contain information about the [requirements][dev-requir
 
 ### Contributing
 
-Contributors can read the [contributing guide][dev-contributing] to learn about the development process and how to propose [enhancement suggestions][dev-contributing-enhancements] and [report bugs][dev-contributing-bug-reports], how to [submit pull requests][dev-contributing-pr] and the project's [styleguides][dev-contributing-styleguides], [branch organization][dev-contributing-branch-org] and [versioning][dev-contributing-versioning] model.
+Read the [contributing guide][dev-contributing] to learn about the development process and how to propose [enhancement suggestions][dev-contributing-enhancements] and [report bugs][dev-contributing-bug-reports], how to [submit pull requests][dev-contributing-pr] and the project's [styleguides][dev-contributing-styleguides], [branch organization][dev-contributing-branch-org] and [versioning][dev-contributing-versioning] model.
 
 The guide also includes information about [minimal, complete, and verifiable examples][dev-contributing-mcve] and other ways to contribute to the project like [improving existing issues][dev-contributing-other-improve-issues] and [giving feedback on issues and pull requests][dev-contributing-other-feedback].
 
