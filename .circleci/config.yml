@@ -12,27 +12,32 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.7
+      - image: circleci/node:latest
     steps:
       - checkout
       - run:
-          name: clean-node-modules
+          name: preprocess-clean-node-modules
           command: rm -rf node_modules
       - run:
-          name: install-global-gulp-cli
-          command: sudo npm install -g gulp-cli
-      - run:
-          name: npm-install
+          name: preprocess-npm-install
           command: npm install
       - run:
-          name: lint
-          command: gulp --harmony lint
+          name: test
+          command: npm run test
       - run:
-          name: compile-css-template
-          command: gulp --harmony compile-css-template
+          name: generate-docs
+          command: npm run docs:build
+      - store_artifacts:
+          path: build/docs
       - run:
           name: generate-sassdoc
-          command: gulp --harmony sassdoc
+          command: npm run sassdoc
+      - store_artifacts:
+          path: build/sassdoc
       - run:
-          name: collect-artifacts
-          command: find . -maxdepth 2 -type d -regextype posix-egrep -regex ".*/build/(.*)" -exec cp -r {} $CIRCLE_ARTIFACTS \;
+          name: build-distribution
+          command: npm run dist
+      - store_artifacts:
+          path: build/nord.css
+      - store_artifacts:
+          path: dist/nord.css

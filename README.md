@@ -88,6 +88,12 @@ body {
 }
 ```
 
+When using the [optimized Nord CSS module][ghio-docs-dev-building-optimize-css-module] the import statement must be adjusted to match the path of the distributed file:
+
+```css
+@import "node_modules/nord/dist/nord.css";
+```
+
 ## Color Swatches
 
 ![][assets-color-swatch]
@@ -145,7 +151,7 @@ body {
 
 [![Nord Slack][assets-port-banner-slack]][gh-repo-nord-slack]
 
-[![Nord Sublime Text][assets-port-banner-slack]][gh-repo-nord-sublime-text]
+[![Nord Sublime Text][assets-port-banner-sublime-text]][gh-repo-nord-sublime-text]
 
 [![Nord Terminal.app][assets-port-banner-terminal-app]][gh-repo-nord-terminal-app]
 
@@ -264,6 +270,7 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [gh-tree-src]: https://github.com/arcticicestudio/nord/tree/develop/src
 [ghio-docs]: https://arcticicestudio.github.io/nord
 [ghio-docs-dev-building]: https://arcticicestudio.github.io/nord/development/building.html
+[ghio-docs-dev-building-optimized-css-module]: https://arcticicestudio.github.io/nord/development/building.html#optimized-css-module
 [ghio-docs-dev-contributing]: https://arcticicestudio.github.io/nord/development/contributing.html
 [ghio-docs-dev-contributing-branch-org]: https://arcticicestudio.github.io/nord/development/contributing.html#branch-organization
 [ghio-docs-dev-contributing-bug-reports]: https://arcticicestudio.github.io/nord/development/contributing.html#bug-reports

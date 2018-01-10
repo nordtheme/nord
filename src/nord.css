@@ -15,8 +15,6 @@
  *   https://github.com/kss-node/kss-node
  */
 
-@import "nord";
-
 /*
 An arctic, north-bluish color palette.
 Created for the clean- and minimal flat design pattern to achieve a optimal focus and readability for code syntax
@@ -34,11 +32,11 @@ Styleguide Nord
   Used for texts, backgrounds, carets and structuring characters like curly- and square brackets.
 
   Markup:
-  <div style="background-color:#2E3440; width=60; height=60"></div>
+  <div style="background-color:#2e3440; width=60; height=60"></div>
 
   Styleguide Nord - Polar Night
   */
-  --nord0: $nord0;
+  --nord0: #2e3440;
 
   /*
   Lighter shade color of the base component color.
@@ -46,11 +44,11 @@ Styleguide Nord
   Used as a lighter background color for UI elements like status bars.
 
   Markup:
-  <div style="background-color:#3B4252; width=60; height=60"></div>
+  <div style="background-color:#3b4252; width=60; height=60"></div>
 
   Styleguide Nord - Polar Night
   */
-  --nord1: $nord1;
+  --nord1: #3b4252;
 
   /*
   Lighter shade color of the base component color.
@@ -59,11 +57,11 @@ Styleguide Nord
   In the UI scope it may be used as selection- and hightlight color.
 
   Markup:
-  <div style="background-color:#434C5E; width=60; height=60"></div>
+  <div style="background-color:#434c5e; width=60; height=60"></div>
 
   Styleguide Nord - Polar Night
   */
-  --nord2: $nord2;
+  --nord2: #434c5e;
 
   /*
   Lighter shade color of the base component color.
@@ -72,11 +70,11 @@ Styleguide Nord
   In the UI scope used as pseudoclass color for disabled elements.
 
   Markup:
-  <div style="background-color:#4C566A; width=60; height=60"></div>
+  <div style="background-color:#4c566a; width=60; height=60"></div>
 
   Styleguide Nord - Polar Night
   */
-  --nord3: $nord3;
+  --nord3: #4c566a;
 
   /*
   Base component color of "Snow Storm".
@@ -85,11 +83,11 @@ Styleguide Nord
   In the UI scope used as semi-light background depending on the theme shading design.
 
   Markup:
-  <div style="background-color:#D8DEE9; width=60; height=60"></div>
+  <div style="background-color:#d8dee9; width=60; height=60"></div>
 
   Styleguide Nord - Snow Storm
   */
-  --nord4: $nord4;
+  --nord4: #d8dee9;
 
   /*
   Lighter shade color of the base component color.
@@ -98,11 +96,11 @@ Styleguide Nord
   Used as semi-light background depending on the theme shading design.
 
   Markup:
-  <div style="background-color:#E5E9F0; width=60; height=60"></div>
+  <div style="background-color:#e5e9f0; width=60; height=60"></div>
 
   Styleguide Nord - Snow Storm
   */
-  --nord5: $nord5;
+  --nord5: #e5e9f0;
 
   /*
   Lighter shade color of the base component color.
@@ -111,11 +109,11 @@ Styleguide Nord
   In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 
   Markup:
-  <div style="background-color:#ECEFF4; width=60; height=60"></div>
+  <div style="background-color:#eceff4; width=60; height=60"></div>
 
   Styleguide Nord - Snow Storm
   */
-  --nord6: $nord6;
+  --nord6: #eceff4;
 
   /*
   Bluish core color.
@@ -123,11 +121,11 @@ Styleguide Nord
   Used for classes, types and documentation tags.
 
   Markup:
-  <div style="background-color:#8FBCBB; width=60; height=60"></div>
+  <div style="background-color:#8fbcbb; width=60; height=60"></div>
 
   Styleguide Nord - Frost
   */
-  --nord7: $nord7;
+  --nord7: #8fbcbb;
 
   /*
   Bluish core accent color.
@@ -140,11 +138,11 @@ Styleguide Nord
     - Markup link URLs
 
   Markup:
-  <div style="background-color:#88C0D0; width=60; height=60"></div>
+  <div style="background-color:#88c0d0; width=60; height=60"></div>
 
   Styleguide Nord - Frost
   */
-  --nord8: $nord8;
+  --nord8: #88c0d0;
 
   /*
   Bluish core color.
@@ -153,11 +151,11 @@ Styleguide Nord
   punctuations like (semi)colons,commas and braces.
 
   Markup:
-  <div style="background-color:#81A1C1; width=60; height=60"></div>
+  <div style="background-color:#81a1c1; width=60; height=60"></div>
 
   Styleguide Nord - Frost
   */
-  --nord9: $nord9;
+  --nord9: #81a1c1;
 
   /*
   Bluish core color.
@@ -165,11 +163,11 @@ Styleguide Nord
   Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
 
   Markup:
-  <div style="background-color:#5E81AC; width=60; height=60"></div>
+  <div style="background-color:#5e81ac; width=60; height=60"></div>
 
   Styleguide Nord - Frost
   */
-  --nord10: $nord10;
+  --nord10: #5e81ac;
 
   /*
   Colorful component color.
@@ -177,11 +175,11 @@ Styleguide Nord
   Used for errors, git/diff deletion and linter marker.
 
   Markup:
-  <div style="background-color:#BF616A; width=60; height=60"></div>
+  <div style="background-color:#bf616a; width=60; height=60"></div>
 
   Styleguide Nord - Aurora
   */
-  --nord11: $nord11;
+  --nord11: #bf616a;
 
   /*
   Colorful component color.
@@ -189,11 +187,11 @@ Styleguide Nord
   Used for annotations.
 
   Markup:
-  <div style="background-color:#D08770; width=60; height=60"></div>
+  <div style="background-color:#d08770; width=60; height=60"></div>
 
   Styleguide Nord - Aurora
   */
-  --nord12: $nord12;
+  --nord12: #d08770;
 
   /*
   Colorful component color.
@@ -202,11 +200,11 @@ Styleguide Nord
   In the UI scope used for warnings and git/diff renamings.
 
   Markup:
-  <div style="background-color:#EBCB8B; width=60; height=60"></div>
+  <div style="background-color:#ebcb8b; width=60; height=60"></div>
 
   Styleguide Nord - Aurora
   */
-  --nord13: $nord13;
+  --nord13: #ebcb8b;
 
   /*
   Colorful component color.
@@ -215,11 +213,11 @@ Styleguide Nord
   In the UI scope used for git/diff additions and success visualizations.
 
   Markup:
-  <div style="background-color:#A3BE8C; width=60; height=60"></div>
+  <div style="background-color:#a3be8c; width=60; height=60"></div>
 
   Styleguide Nord - Aurora
   */
-  --nord14: $nord14;
+  --nord14: #a3be8c;
 
   /*
   Colorful component color.
@@ -227,9 +225,9 @@ Styleguide Nord
   Used for numbers.
 
   Markup:
-  <div style="background-color:#B48EAD; width=60; height=60"></div>
+  <div style="background-color:#b48ead; width=60; height=60"></div>
 
   Styleguide Nord - Aurora
   */
-  --nord15: $nord15;
+  --nord15: #b48ead;
 }

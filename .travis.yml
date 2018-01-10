@@ -11,18 +11,16 @@ language: node_js
 dist: trusty
 sudo: false
 node_js:
-  - "4"
-  - "6"
-  - "8"
+  - "node"
 os:
   - linux
   - osx
 before_install:
   - rm -rf ./node_modules
 before_script:
-  - npm install -g gulp-cli
   - npm install
 script:
-  - gulp --harmony lint
-  - gulp --harmony compile-css-template
-  - gulp --harmony sassdoc
+  - npm run test
+  - npm run docs:build
+  - npm run sassdoc
+  - npm run dist

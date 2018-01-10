@@ -44,7 +44,7 @@ Nord provides official port projects to cover a wide range of applications, libr
 
 [![Nord Slack][assets-port-banner-slack]][gh-repo-nord-slack]
 
-[![Nord Sublime Text][assets-port-banner-slack]][gh-repo-nord-sublime-text]
+[![Nord Sublime Text][assets-port-banner-sublime-text]][gh-repo-nord-sublime-text]
 
 [![Nord Terminal.app][assets-port-banner-terminal-app]][gh-repo-nord-terminal-app]
 

@@ -3,7 +3,7 @@ Nord can be easily imported from the [Sass][sass], [Less][less], [Stylus][stylus
 ### Sass
 
 ```sass
-@import "node_modules/nord/src/sass/nord.scss";
+@import "node_modules/nord/src/nord.scss";
 
 body {
   background-color: $nord0;
@@ -14,7 +14,7 @@ body {
 ### Less
 
 ```less
-@import "node_modules/nord/src/lesscss/nord.less";
+@import "node_modules/nord/src/nord.less";
 
 body {
   background-color: @nord0;
@@ -25,7 +25,7 @@ body {
 ### Stylus
 
 ```stylus
-@import "node_modules/nord/src/stylus/nord.styl";
+@import "node_modules/nord/src/nord.styl";
 
 body {
   background-color: @nord0;
@@ -40,7 +40,7 @@ The [CSS specification][w3-css-spec] supports the usage of primitive value types
 All Nord color variables placed inside the `:root` pseudo-class. The `:root` pseudo-class represents an element that is the root of the document which is always the HTML (`<html>`) element and allows to use these variables for the whole document.
 
 ```css
-@import "node_modules/nord/dist/nord.css";
+@import "node_modules/nord/nord.css";
 
 body {
   background-color: var(--nord0);
@@ -48,7 +48,14 @@ body {
 }
 ```
 
+When using the [optimized Nord CSS module][dev-building-optimized-css-module] the import statement must be adjusted to match the path of the distributed file:
+
+```css
+@import "node_modules/nord/dist/nord.css";
+```
+
 [color-swatches]: color-swatches.md
+[dev-building-optimized-css-module]: ../development/building.md#optimized-css-module
 
 [less]: http://lesscss.org
 [mdn-css-vars]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
