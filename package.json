@@ -28,6 +28,13 @@
     "ui",
     "syntax"
   ],
+  "files": [
+    "dist/nord.css",
+    "src/nord.css",
+    "src/nord.less",
+    "src/nord.scss",
+    "src/nord.styl"
+  ],
   "scripts": {
     "clean": "del build dist",
     "dist": "npm run clean && npm run optimize:css && cpy build/nord.css dist",
@@ -38,6 +45,7 @@
     "lint:less": "stylelint src/nord.less",
     "lint:sass": "stylelint src/nord.scss",
     "optimize:css": "make-dir build && cleancss -O1 src/nord.css --output build/nord.css",
+    "prepare": "npm run dist",
     "sassdoc": "sassdoc src/nord.scss --dest build/sassdoc",
     "test": "npm run lint"
   },
