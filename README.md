@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord"><img src="https://img.shields.io/travis/arcticicestudio/nord/develop.svg?style=flat-square"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord/develop.svg?style=flat-square"/></a></p>
 
-<p align="center"><a href="https://arcticicestudio.github.io/nord"><img src="https://img.shields.io/badge/Docs-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://arcticicestudio.github.io/nord/sassdoc"><img src="https://img.shields.io/badge/SassDoc-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord-hyper/blob/v0.2.0/CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-0.2.0-5E81AC.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://arcticicestudio.github.io/nord"><img src="https://img.shields.io/badge/Docs-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://arcticicestudio.github.io/nord/sassdoc"><img src="https://img.shields.io/badge/SassDoc-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/blob/v0.2.0/CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-0.2.0-5E81AC.svg?style=flat-square"/></a></p>
 
 ---
 
