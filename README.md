@@ -88,7 +88,7 @@ body {
 }
 ```
 
-When using the [optimized Nord CSS module][ghio-docs-dev-building-optimize-css-module] the import statement must be adjusted to match the path of the distributed file:
+When using the [optimized Nord CSS module][ghio-docs-dev-building-optimized-css-module] the import statement must be adjusted to match the path of the distributed file:
 
 ```css
 @import "node_modules/nord/dist/nord.css";
