@@ -88,7 +88,7 @@ body {
 }
 ```
 
-When using [postcss-import](https://github.com/postcss/postcss-import) you can simply import the CSS file like any JavaScript module:
+When using [postcss-import][gh-postcss-import] you can simply import the CSS file like any JavaScript module:
 
 ```css
 @import "nord";
@@ -273,6 +273,7 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [gh-repo-nord-xcode]: https://github.com/arcticicestudio/nord-xcode
 [gh-repo-nord-xfce-terminal]: https://github.com/arcticicestudio/nord-xfce-terminal
 [gh-repo-nord-xresources]: https://github.com/arcticicestudio/nord-xresources
+[gh-repo-postcss-import]: https://github.com/postcss/postcss-import
 [gh-tree-src]: https://github.com/arcticicestudio/nord/tree/develop/src
 [ghio-docs]: https://arcticicestudio.github.io/nord
 [ghio-docs-dev-building]: https://arcticicestudio.github.io/nord/development/building.html
