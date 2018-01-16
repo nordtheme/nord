@@ -88,6 +88,12 @@ body {
 }
 ```
 
+When using [postcss-import](https://github.com/postcss/postcss-import) you can simply import the CSS file like any JavaScript module:
+
+```css
+@import "nord";
+```
+
 When using the [optimized Nord CSS module][ghio-docs-dev-building-optimized-css-module] the import statement must be adjusted to match the path of the distributed file:
 
 ```css

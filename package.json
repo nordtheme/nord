@@ -35,6 +35,7 @@
     "src/nord.scss",
     "src/nord.styl"
   ],
+  "style": "dist/nord.css",
   "scripts": {
     "clean": "del build dist",
     "dist": "npm run clean && npm run optimize:css && cpy build/nord.css dist",
