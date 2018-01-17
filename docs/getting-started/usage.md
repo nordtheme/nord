@@ -48,6 +48,12 @@ body {
 }
 ```
 
+When using [postcss-import][gh-postcss-import] you can simply import the CSS file like any JavaScript module:
+
+```css
+@import "nord";
+```
+
 When using the [optimized Nord CSS module][dev-building-optimized-css-module] the import statement must be adjusted to match the path of the distributed file:
 
 ```css
@@ -57,6 +63,7 @@ When using the [optimized Nord CSS module][dev-building-optimized-css-module] th
 [color-swatches]: color-swatches.md
 [dev-building-optimized-css-module]: ../development/building.md#optimized-css-module
 
+[gh-repo-postcss-import]: https://github.com/postcss/postcss-import
 [less]: http://lesscss.org
 [mdn-css-vars]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
 [sass]: http://sass-lang.com
