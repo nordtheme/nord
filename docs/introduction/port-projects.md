@@ -110,7 +110,7 @@ Nord provides official port projects to cover a wide range of applications, libr
 [gh-repo-nord-emacs]: https://github.com/arcticicestudio/nord-emacs
 [gh-repo-nord-gedit]: https://github.com/arcticicestudio/nord-gedit
 [gh-repo-nord-gnome-terminal]: https://github.com/arcticicestudio/nord-gnome-terminal
-[gh-repo-nord-guake]: https://github.com/arcticicestudio/nord-gnome-terminal
+[gh-repo-nord-guake]: https://github.com/arcticicestudio/nord-guake
 [gh-repo-nord-highlightjs]: https://github.com/arcticicestudio/nord-highlightjs
 [gh-repo-nord-hyper]: https://github.com/arcticicestudio/nord-hyper
 [gh-repo-nord-iterm2]: https://github.com/arcticicestudio/nord-iterm2
