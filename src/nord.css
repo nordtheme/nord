@@ -54,7 +54,7 @@ Styleguide Nord
   Lighter shade color of the base component color.
 
   Used as line highlighting in the editor.
-  In the UI scope it may be used as selection- and hightlight color.
+  In the UI scope it may be used as selection- and highlight color.
 
   Markup:
   <div style="background-color:#434c5e; width=60; height=60"></div>
@@ -106,7 +106,7 @@ Styleguide Nord
   Lighter shade color of the base component color.
 
   Used for punctuations, carets and structuring characters like curly- and square brackets.
-  In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
+  In the UI scope used as background, selection- and highlight color depending on the theme shading design.
 
   Markup:
   <div style="background-color:#eceff4; width=60; height=60"></div>
