@@ -44,3 +44,9 @@
 # +-----+
 # Color Palette
 *.clr binary
+
+# +-------------------------+
+# + Affinity Photo/Designer +
+# +-------------------------+
+# Color Palette
+*.afpalette binary
