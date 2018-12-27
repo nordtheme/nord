@@ -110,7 +110,7 @@ When using the [optimized Nord CSS module][ghio-docs-dev-building-optimized-css-
 * `.gpa` - [Gpick][gpick] Palette
 * `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
 * `.mtl` - Alias and WaveFront Material
-* `.afpalette` - [Affinity Photo][affinity-photo] / [Affintiy Designer][affinity-designer] Palette
+* `.afpalette` - [Affinity Photo][affinity-photo] / [Affinity Designer][affinity-designer] Palette
 
 
 ## Port Projects
