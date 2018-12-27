@@ -8,6 +8,7 @@ Next to the [CSS based formats][getting-started-usage], Nord is available in var
 * `.gpa` - [Gpick][gpick] Palette
 * `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
 * `.mtl` - Alias and WaveFront Material
+* `.afpalette` - [Affinity Photo][affinity-photo] / [Affinity Designer][affinity-designer] Palette
 
 The color palette can be easily used by [downloading the latest version of the file][gh-tree-src-native] and following the instructions in the documentation of the specific application.
 
@@ -22,3 +23,5 @@ The color palette can be easily used by [downloading the latest version of the f
 [gpick]: http://gpick.org
 [inkscape-wiki-color-palette]: http://wiki.inkscape.org/wiki/index.php/ColorPalette
 [krita-doc-color-palette]: https://docs.krita.org/Palette
+[affinity-photo]: https://affinity.serif.com/photo/
+[affinity-designer]: https://affinity.serif.com/designer/

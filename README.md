@@ -110,6 +110,8 @@ When using the [optimized Nord CSS module][ghio-docs-dev-building-optimized-css-
 * `.gpa` - [Gpick][gpick] Palette
 * `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
 * `.mtl` - Alias and WaveFront Material
+* `.afpalette` - [Affinity Photo][affinity-photo] / [Affinity Designer][affinity-designer] Palette
+
 
 ## Port Projects
 
@@ -304,3 +306,5 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [npm]: https://npmjs.com
 [sass]: http://sass-lang.com
 [stylus]: http://stylus-lang.com
+[affinity-photo]: https://affinity.serif.com/photo/
+[affinity-designer]: https://affinity.serif.com/designer/
