@@ -1,24 +1,19 @@
+# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+#
+# Project:    Nord
+# Repository: https://github.com/arcticicestudio/nord
+# License:    MIT
+
+# +------+
+# + Logs +
+# +------+
+logs/
+**/*.log
+npm-debug.log*
+
 # +---------+
 # + Node.js +
 # +---------+
-node_modules
-npm-debug.log*
+**/node_modules/
 .npm/
-*.log
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# +-------------------+
-# + Project Structure +
-# +-------------------+
-build/
-dist/
-
-# +------+
-# + Sass +
-# +------+
-.sass-cache
-*.css.map
