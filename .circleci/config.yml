@@ -24,20 +24,3 @@ jobs:
       - run:
           name: test
           command: npm run test
-      - run:
-          name: generate-docs
-          command: npm run docs:build
-      - store_artifacts:
-          path: build/docs
-      - run:
-          name: generate-sassdoc
-          command: npm run sassdoc
-      - store_artifacts:
-          path: build/sassdoc
-      - run:
-          name: build-distribution
-          command: npm run dist
-      - store_artifacts:
-          path: build/nord.css
-      - store_artifacts:
-          path: dist/nord.css
