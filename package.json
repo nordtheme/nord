@@ -6,9 +6,9 @@
   "author": {
     "name": "Arctic Ice Studio",
     "email": "development@arcticicestudio.com",
-    "url": "http://arcticicestudio.com"
+    "url": "https://www.arcticicestudio.com"
   },
-  "homepage": "https://github.com/arcticicestudio/nord",
+  "homepage": "https://www.nordtheme.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arcticicestudio/nord.git"
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord/issues"
   },
-  "license": "(MIT AND CC-BY-SA-4.0)",
+  "license": "MIT",
   "keywords": [
     "nord",
     "arctic",
@@ -29,36 +29,23 @@
     "syntax"
   ],
   "files": [
-    "dist/nord.css",
     "src/nord.css",
     "src/nord.less",
     "src/nord.scss",
     "src/nord.styl"
   ],
-  "style": "dist/nord.css",
+  "style": "src/nord.css",
   "scripts": {
-    "clean": "del build dist",
-    "dist": "npm run clean && npm run optimize:css && cpy build/nord.css dist",
-    "docs:build": "gitbook install docs && gitbook build docs build/docs",
-    "docs:dev": "npm run docs:build && gitbook serve docs build/docs",
-    "lint": "npm run lint:css && npm run lint:less && npm run lint:sass",
     "lint:css": "stylelint src/nord.css",
     "lint:less": "stylelint src/nord.less",
     "lint:sass": "stylelint src/nord.scss",
-    "optimize:css": "make-dir build && cleancss -O1 src/nord.css --output build/nord.css",
-    "prepare": "npm run dist",
-    "sassdoc": "sassdoc src/nord.scss --dest build/sassdoc",
+    "lint": "npm-run-all --parallel lint:*",
+    "prepare": "npm run test",
     "test": "npm run lint"
   },
   "devDependencies": {
-    "clean-css-cli": "4.1.10",
-    "cpy-cli": "1.0.1",
-    "del-cli": "1.1.0",
-    "gitbook-cli": "2.3.2",
-    "make-dir-cli": "1.0.0",
-    "sassdoc": "2.5.0",
-    "sassdoc-theme-flippant": "0.1.0",
-    "stylelint": "8.4.0",
-    "stylelint-config-standard": "18.0.0"
+    "npm-run-all": "4.1.5",
+    "stylelint": "9.10.1",
+    "stylelint-config-standard": "18.2.0"
   }
 }

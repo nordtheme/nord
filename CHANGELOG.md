@@ -1,10 +1,8 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/assets/nord-logo-banner.svg"/></p>
+<p align="center"><a href="https://www.nordtheme.com" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square"/></a> <img src="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" width=24 height=24/> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/v/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dt/nord.svg?style=flat-square"/></a> <a href="https://www.npmjs.com/package/nord"><img src="https://img.shields.io/npm/dm/nord.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
 
-<p align="center"><a href="https://arcticicestudio.github.io/nord"><img src="https://img.shields.io/badge/Docs-0.2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://arcticicestudio.github.io/nord/sassdoc"><img src="https://img.shields.io/badge/SassDoc-0.2.0-5E81AC.svg?style=flat-square"/></a></p>
-
----
+<p align="center">Changelog for <a href="https://github.com/arcticicestudio/nord" alt="Nord">Nord</a>.</p>
 
 # 0.2.0
 
@@ -21,7 +19,6 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 ### Documentation
 
 ❯ Switched the color definitions for `nord8` and `nord14`. The accent color `nord8` is now used for methods and functions while strings and attribute values are now colored by `nord14` instead. This design has already been implemented in all port projects before, but is now officially documented with this release version. (#1, 2a95e4c0)
-
 
 ❯ Switched the color of punctuations and variables / constants. The `nord4` color is now used for variables and constants while punctuations are now colored by `nord6` instead. This design has also already been implemented in all port projects before, but is now officially documented with this release version. (#2, f8231acd)
 
@@ -79,11 +76,11 @@ The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adob
 
 ![][assets-color-swatch]
 
-* `.aco` - [Adobe Photoshop][adobe-photoshop] Palette
-* `.ase` - [Adobe Swatch Exchange][adobe-help-color-swatches]
-* `.gpa` - [Gpick][gpick] Palette
-* `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
-* `.mtl` - Alias and WaveFront Material
+- `.aco` - [Adobe Photoshop][adobe-photoshop] Palette
+- `.ase` - [Adobe Swatch Exchange][adobe-help-color-swatches]
+- `.gpa` - [Gpick][gpick] Palette
+- `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
+- `.mtl` - Alias and WaveFront Material
 
 # Project Initialization
 

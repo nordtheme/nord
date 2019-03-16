@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
  *
  * Project:    Nord
  * Repository: https://github.com/arcticicestudio/nord
@@ -12,10 +12,10 @@
  */
 
 module.exports = {
-  "extends": "stylelint-config-standard",
-  "rules": {
+  extends: "stylelint-config-standard",
+  rules: {
     "color-hex-case": "lower",
     "comment-empty-line-before": null,
     "selector-pseudo-element-colon-notation": "single"
   }
-}
+};
