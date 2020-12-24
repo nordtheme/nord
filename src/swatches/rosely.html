@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>rosely.html</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div#colors div{float: left; width: 64px; height: 64px; margin: 2px; text-align: center; font-size: 12px; font-family: Arial, Helvetica, sans-serif}
+div#colors div span{font-weight: bold; cursor: pointer}
+div#colors div span:hover{text-decoration: underline}
+html{}
+input{margin-left: 1em;}
+</style></head>
+<body>
+<div id="colors">
+<div style="background-color:rgb(39, 39, 42); color:rgb(255, 255, 255)">rosely0:<br/><span>#27272A</span></div><div style="background-color:rgb(97, 95, 95); color:rgb(255, 255, 255)">rosely1:<br/><span>#615F5F</span></div><div style="background-color:rgb(133, 103, 123); color:rgb(255, 255, 255)">rosely2:<br/><span>#85677B</span></div><div style="background-color:rgb(164, 158, 158); color:rgb(0, 0, 0)">rosely3:<br/><span>#A49E9E</span></div><div style="background-color:rgb(247, 202, 202); color:rgb(0, 0, 0)">rosely4:<br/><span>#F7CACA</span></div><div style="background-color:rgb(244, 222, 222); color:rgb(0, 0, 0)">rosely5:<br/><span>#F4DEDE</span></div><div style="background-color:rgb(244, 238, 232); color:rgb(0, 0, 0)">rosely6:<br/><span>#F4EEE8</span></div><div style="background-color:rgb(147, 169, 209); color:rgb(0, 0, 0)">rosely7:<br/><span>#93A9D1</span></div><div style="background-color:rgb(190, 156, 193); color:rgb(0, 0, 0)">rosely8:<br/><span>#BE9CC1</span></div><div style="background-color:rgb(176, 135, 155); color:rgb(0, 0, 0)">rosely9:<br/><span>#B0879B</span></div><div style="background-color:rgb(181, 101, 167); color:rgb(0, 0, 0)">rosely10:<br/><span>#B565A7</span></div><div style="background-color:rgb(210, 56, 108); color:rgb(255, 255, 255)">rosely11:<br/><span>#D2386C</span></div><div style="background-color:rgb(236, 128, 158); color:rgb(0, 0, 0)">rosely12:<br/><span>#EC809E</span></div><div style="background-color:rgb(234, 218, 79); color:rgb(0, 0, 0)">rosely13:<br/><span>#EADA4F</span></div><div style="background-color:rgb(100, 191, 164); color:rgb(0, 0, 0)">rosely14:<br/><span>#64BFA4</span></div><div style="background-color:rgb(145, 155, 201); color:rgb(0, 0, 0)">rosely15:<br/><span>#919BC9</span></div></div>
+<script>
+function selectText(element){ if (document.selection){ var range = document.body.createTextRange(); range.moveToElementText(element); range.select(); }else if (window.getSelection){ var range = document.createRange(); range.selectNode(element); window.getSelection().addRange(range); } }
+document.getElementById('colors').addEventListener('click', function(event){ if (event.target.tagName.toLowerCase() == 'span'){ event.preventDefault(); selectText(event.target); document.execCommand('copy'); }});
+</script></body></html>
