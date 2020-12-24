@@ -2,19 +2,19 @@ GIMP Palette
 Name: Rosely
 Columns: 1
 #
-46	52	64	rosely0
-59	66	82	rosely1
-67	76	94	rosely2
-76	86	106	rosely3
-216	222	233	rosely4
-229	233	240	rosely5
-236	239	244	rosely6
-143	188	187	rosely7
-136	192	208	rosely8
-129	161	193	rosely9
-94	129	172	rosely10
-191	97	106	rosely11
-208	135	112	rosely12
-235	203	139	rosely13
-163	190	140	rosely14
-180	142	173	rosely15
+39	39	42	rosely0
+97	95	95	rosely1
+133	103	123	rosely2
+164	158	158	rosely3
+247	202	202	rosely4
+244	222	222	rosely5
+244	238	232	rosely6
+147	169	209	rosely7
+190	156	193	rosely8
+176	135	155	rosely9
+181	101	167	rosely10
+210	56	108	rosely11
+236	128	158	rosely12
+234	218	79	rosely13
+100	191	164	rosely14
+145	155	201	rosely15
