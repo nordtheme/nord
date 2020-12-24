@@ -1,26 +1,26 @@
 {
-  "name": "nord",
-  "title": "Nord",
-  "version": "0.2.1",
-  "description": "An arctic, north-bluish color palette",
+  "name": "rosely",
+  "title": "Rosely",
+  "version": "1.0.0",
+  "description": "A warm and serene color palette based on millennial pink",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "https://www.arcticicestudio.com"
+    "name": "Chris Tham",
+    "email": "info@hellotham.com",
+    "url": "https://www.hellotham.com"
   },
-  "homepage": "https://www.nordtheme.com",
+  "homepage": "https://rosely.hellotham.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticicestudio/nord.git"
+    "url": "git+https://github.com/hellotham/rosely.git"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord/issues"
+    "url": "https://github.com/hellotham/rosely/issues"
   },
   "license": "MIT",
   "keywords": [
-    "nord",
-    "arctic",
-    "north",
+    "rosely",
+    "millennial",
+    "pink",
     "bluish",
     "clean",
     "minimal",
@@ -29,16 +29,16 @@
     "syntax"
   ],
   "files": [
-    "src/nord.css",
-    "src/nord.less",
-    "src/nord.scss",
-    "src/nord.styl"
+    "src/rosely.css",
+    "src/rosely.less",
+    "src/rosely.scss",
+    "src/rosely.styl"
   ],
-  "style": "src/nord.css",
+  "style": "src/rosely.css",
   "scripts": {
-    "lint:css": "stylelint src/nord.css",
-    "lint:less": "stylelint src/nord.less",
-    "lint:sass": "stylelint src/nord.scss",
+    "lint:css": "stylelint src/rosely.css",
+    "lint:less": "stylelint src/rosely.less",
+    "lint:sass": "stylelint src/rosely.scss",
     "lint": "npm-run-all --parallel lint:*",
     "prepare": "npm run test",
     "test": "npm run lint"

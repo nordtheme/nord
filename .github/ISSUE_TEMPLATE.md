@@ -1,6 +1,6 @@
 <!-- Click on the "Preview" tab to render the instructions in a more readable format -->
 
-> **Please read the [contribution guidelines](https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md) before filling out this issue template**.
+> **Please read the [contribution guidelines](https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md) before filling out this issue template**.
 
 ## Prerequisites
 
@@ -8,9 +8,9 @@ This section and the instructions in the sections below are only part of this is
 
 Please do your best to provide as much information as possible and use a clear and descriptive title for your enhancement suggestion or bug report to help maintainers and the community understand and reproduce the behavior, find related reports and to resolve the ticket faster.
 
-* **Ensure the issue has not already been reported by using the [GitHub Issues search](https://github.com/arcticicestudio/nord/issues)** — if it has **and the issue is still open**, add a comment to the existing issue instead of opening this new one. If you find a closed issue that seems to be similar to this one, include a link to the original issue in the [metadata head](#metadata-head) section of this issue.
-* **Ensure the contribution doesn't belong to any [port project](https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#port-projects).**
-* **Ensure the issue is reproducible** — try to use the [latest version](https://github.com/arcticicestudio/nord/releases/latest) and [`develop`](https://github.com/arcticicestudio/nord/tree/develop) branch.
+* **Ensure the issue has not already been reported by using the [GitHub Issues search](https://github.com/hellotham/rosely/issues)** — if it has **and the issue is still open**, add a comment to the existing issue instead of opening this new one. If you find a closed issue that seems to be similar to this one, include a link to the original issue in the [metadata head](#metadata-head) section of this issue.
+* **Ensure the contribution doesn't belong to any [port project](https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#port-projects).**
+* **Ensure the issue is reproducible** — try to use the [latest version](https://github.com/hellotham/rosely/releases/latest) and [`develop`](https://github.com/hellotham/rosely/tree/develop) branch.
 
 ## Metadata Head
 
@@ -21,7 +21,7 @@ Related issues:
 
 ### Issue Type
 
-Set the *type* of this issue. It determines which information will be required in the following sections when it is an [bug report](https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#bug-reports) or an [enhancement suggestion](https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#enhancement-suggestions).
+Set the *type* of this issue. It determines which information will be required in the following sections when it is an [bug report](https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#bug-reports) or an [enhancement suggestion](https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#enhancement-suggestions).
 
 * *feature*
 * *improvement*
@@ -50,7 +50,7 @@ What actually happens?
 
 ## Example
 
-Provide a [MCVE - The Minimal, Complete, and Verifiable Example](https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#mcve)
+Provide a [MCVE - The Minimal, Complete, and Verifiable Example](https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#mcve)
 
 **This is a optional section, but it can drastically increase the speed at which this issue can be processed since it takes away the time-consuming reconstruction to reproduce the enhancement or bug.**
 
@@ -58,7 +58,7 @@ The recommened way is to upload it as [Gist](https://gist.github.com) or new rep
 
 ## Environment and Versions
 
-* What is the version of Nord you are running?
+* What is the version of Rosely you are running?
 * What is the name and the version of your OS?
   * Have you tried to reproduce it on different OS environments and if yes is the behavior the same for all?
 * If the problem is related to [Node.js](https://nodejs.org) please provide the Node.js version you're running.

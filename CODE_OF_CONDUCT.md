@@ -1,6 +1,6 @@
 # Code of Conduct
 
-All members, committers and volunteers in this project are required to act according to the following Code of Conduct. We ask you to follow these guidelines which help steer our interactions and strive to keep Nord a positive and growing project and help us provide and ensure a safe environment for everyone.
+All members, committers and volunteers in this project are required to act according to the following Code of Conduct. We ask you to follow these guidelines which help steer our interactions and strive to keep Rosely a positive and growing project and help us provide and ensure a safe environment for everyone.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact us via [email][email]. Your reports will be taken seriously and not dismissed or argued with.
 
@@ -55,5 +55,5 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide), [Hoodie's Code of Conduct](http://hood.ie/code-of-conduct) and the [Contributor Covenant Version 1.4](http://contributor-covenant.org/version/1/4/).
 
-[email]: mailto:development@arcticicestudio.com
+[email]: mailto:development@hellotham.com
 [ref-gender-neutral-docs]: https://modelviewculture.com/pieces/gendered-language-feature-or-bug-in-software-documentation

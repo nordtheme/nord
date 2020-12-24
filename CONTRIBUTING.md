@@ -1,16 +1,16 @@
-# Contributing to Nord
+# Contributing to Rosely
 
-Thanks for contributing to Nord!
+Thanks for contributing to Rosely!
 
-This is a set of guidelines for contributing to Nord. Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+This is a set of guidelines for contributing to Rosely. Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-As for everything else in the project, the contributions to Nord are governed by our [Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code. Please report unacceptable behavior via [email][email].
+As for everything else in the project, the contributions to Rosely are governed by our [Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code. Please report unacceptable behavior via [email][email].
 
 ## Getting Started
 
-Nord is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](#documentations), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into Nord itself by [submitting a pull request](#pull-requests).
+Rosely is an open source project and we love to receive contributions from the community! There are many ways to contribute, from [writing- and improving documentation and tutorials](#documentations), [reporting bugs](#bug-reports), [submitting enhancement suggestions](#enhancement-suggestions) which can be incorporated into Rosely itself by [submitting a pull request](#pull-requests).
 
 The project development workflow and process uses [GitHub Issues][gh-issues]- and [Pull Requests][gh-pr] management to track issues and pull requests.
 
@@ -18,15 +18,15 @@ Before you continue with this contribution guideslines we highly recommend to re
 
 ### Port Projects
 
-Nord is a large open source project with [support for many port projects][gh-profile-repo-search-nord] and is intentionally very modular. Each port project lives in its own repository.
+Rosely is a large open source project with [support for many port projects][gh-profile-repo-search-rosely] and is intentionally very modular. Each port project lives in its own repository.
 
 **Please make sure to determine the correct repository before you continue!**
 
-Contributions related to a [Nord port project][gh-readme-port-projects] belong to the specific repository while contributions related to Nord itself are welcome in this main repository. This helps all members, committers and maintainer in this project to process every contribution faster without organization overhead.
+Contributions related to a [Rosely port project][gh-readme-port-projects] belong to the specific repository while contributions related to Rosely itself are welcome in this main repository. This helps all members, committers and maintainer in this project to process every contribution faster without organization overhead.
 
 ### Bug Reports
 
-A bug is a *demonstrable problem* that is caused by the code in the repository. This section guides you through submitting a bug report for Nord. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior and find related reports.
+A bug is a *demonstrable problem* that is caused by the code in the repository. This section guides you through submitting a bug report for Rosely. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior and find related reports.
 
 **Do NOT report security vulnerabilities in public issues!** Please contact the core team members and the project owner in a responsible manner by [email][email] only. We will assess the issue as soon as possible on a best-effort basis and will give you an estimate for when we have a fix and release available for an eventual public disclosure.
 
@@ -44,14 +44,14 @@ When you are creating a bug report, please provide as much detail and context as
 
 If possible please provide more context by answering these questions:
 
-* **Did the problem start happening recently** e.g. after updating to a new version of Nord or was this always a problem?
-  * If the problem started happening recently, **can you reproduce the problem in an older version of Nord?**
+* **Did the problem start happening recently** e.g. after updating to a new version of Rosely or was this always a problem?
+  * If the problem started happening recently, **can you reproduce the problem in an older version of Rosely?**
   * What is the most recent version in which the problem does not happen?
 * **Can you reliably reproduce the issue?** If not, please provide details about how often the problem happens and under which conditions it normally happens.
 
 Please include details about your configuration and environment:
 
-* What is the version of Nord you are running?
+* What is the version of Rosely you are running?
 * What is the name and the version of your OS?
   * Have you tried to reproduce it on different OS environments and if yes is the behavior the same for all?
 * If the problem is related to [Node.js][nodejs] please provide the Node.js version you're running.
@@ -72,7 +72,7 @@ Before creating enhancement suggestions, please check if your idea fits with the
 * **Provide a step-by-step description of the suggested enhancement** in as many details as possible and provide use-cases.
 * **Provide examples to demonstrate the need of an enhancement**. Include copy/pasteable snippets which you use in those examples, use [Markdown code blocks][gh-help-markdown-code-blocks] or [attach files to the issue][gh-help-attach-files].
 * **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-* **Explain why this enhancement would be useful** to most Nord users.
+* **Explain why this enhancement would be useful** to most Rosely users.
 * **Maybe list some other projects where this enhancement exists.**
 
 ### Pull Requests
@@ -96,13 +96,13 @@ When you are submitting an pull request, please provide as much detail and conte
 
 ### Documentations
 
-Nord's documentation consists of guides, which helps users to learn about the project, and the project docs, which serves as a reference including Nord's port projects.
+Rosely's documentation consists of guides, which helps users to learn about the project, and the project docs, which serves as a reference including Rosely's port projects.
 
 You can help improve the docs and guides by making them more coherent, consistent or readable, adding missing information, correcting factual errors, fixing typos, bringing them up to date when there are differences to the latest version. This can be done by submitting a [enhancement suggestion](#enhancement-suggestions) and then opening a [pull request](#pull-requests) for it.
 
 ## Branch Organization
 
-The Nord uses the [gitflow][gitflow] branching model. The repository consists of two core branches with an infinite development lifecycle:
+The Rosely uses the [gitflow][gitflow] branching model. The repository consists of two core branches with an infinite development lifecycle:
 
 * `master` - The source code of `HEAD` always reflects a tagged release version.
 * `develop` - The default branch where the source code of `HEAD` always reflects a state with the latest development state.
@@ -117,7 +117,7 @@ Some issues are created with missing information, not reproducible, or plain inv
 
 ### Give Feedback On Issues and Pull Requests
 
-We're always looking for more opinions on discussions in issues and pull request reviews which is a good opportunity to influence the future direction of Nord.
+We're always looking for more opinions on discussions in issues and pull request reviews which is a good opportunity to influence the future direction of Rosely.
 
 The [question][gh-issues-label-question] issue label is a good place to find ongoing discussions and questions.
 
@@ -129,7 +129,7 @@ A style guide establishes and enforces style to improve the intelligibility and 
 
 ### JavaScript Code Style
 
-Nord adheres to the [Arctic Ice Studio JavaScript Style Guide][styleguide-javascript-github].
+Rosely adheres to the [Arctic Ice Studio JavaScript Style Guide][styleguide-javascript-github].
 
 [![][styleguide-javascript-badge]][styleguide-javascript-github]
 
@@ -137,7 +137,7 @@ Nord adheres to the [Arctic Ice Studio JavaScript Style Guide][styleguide-javasc
 
 A well-crafted Git commit message is the best way to communicate *context* about a change to the maintainers. The code will tell what changed, but only the commit message can properly tell why. Re-establishing the context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it as much as possible.
 
-Nord adheres to the [Arctic Ice Studio Git Style Guide][styleguide-git-github].
+Rosely adheres to the [Arctic Ice Studio Git Style Guide][styleguide-git-github].
 
 [![][styleguide-git-badge]][styleguide-git-github]
 
@@ -182,7 +182,7 @@ To entirely understand your enhancement or bug report, developers will need to v
 
 ## Versioning
 
-Nord follows the [Semantic Versioning Specification][semver] (SemVer). We release patch versions for bugfixes, minor versions for enhancements like new features and improvements, and major versions for any backwards incompatible changes. Deprecation warnings are introduced for breaking changes in a minor version so that users learn about the upcoming changes and migrate their code in advance.
+Rosely follows the [Semantic Versioning Specification][semver] (SemVer). We release patch versions for bugfixes, minor versions for enhancements like new features and improvements, and major versions for any backwards incompatible changes. Deprecation warnings are introduced for breaking changes in a minor version so that users learn about the upcoming changes and migrate their code in advance.
 
 Every significant change is documented in the [changelog][changelog].
 
@@ -190,19 +190,19 @@ Every significant change is documented in the [changelog][changelog].
 
 Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide) and various contribution guides of large open source projects like [Atom][ref-atom-contributing], [React][ref-react-contributing] and [Ruby on Rails][ref-rubyonrails-contributing].
 
-[branch-develop]: https://github.com/arcticicestudio/nord/tree/develop
-[changelog]: https://github.com/arcticicestudio/nord/blob/develop/CHANGELOG.md
-[code-of-conduct]: https://github.com/arcticicestudio/nord/blob/develop/CODE_OF_CONDUCT.md
-[email]: mailto:development@arcticicestudio.com
+[branch-develop]: https://github.com/hellotham/rosely/tree/develop
+[changelog]: https://github.com/hellotham/rosely/blob/develop/CHANGELOG.md
+[code-of-conduct]: https://github.com/hellotham/rosely/blob/develop/CODE_OF_CONDUCT.md
+[email]: mailto:development@hellotham.com
 [gh-help-attach-files]: https://help.github.com/articles/file-attachments-on-issues-and-pull-requests
 [gh-help-issue-keywords]: https://help.github.com/articles/closing-issues-using-keywords
 [gh-help-markdown-code-blocks]: https://help.github.com/articles/basic-writing-and-formatting-syntax
-[gh-issues]: https://github.com/arcticicestudio/nord/issues
-[gh-issues-label-question]: https://github.com/arcticicestudio/nord/labels/question
-[gh-pr]: https://github.com/arcticicestudio/nord/pulls
-[gh-profile-repo-search-nord]: https://github.com/arcticicestudio?tab=repositories&q=nord
+[gh-issues]: https://github.com/hellotham/rosely/issues
+[gh-issues-label-question]: https://github.com/hellotham/rosely/labels/question
+[gh-pr]: https://github.com/hellotham/rosely/pulls
+[gh-profile-repo-search-rosely]: https://github.com/hellotham?tab=repositories&q=rosely
 [gh-osguide-contribute]: https://opensource.guide/how-to-contribute
-[gh-readme-port-projects]: https://github.com/arcticicestudio/nord#port-projects
+[gh-readme-port-projects]: https://github.com/hellotham/rosely#port-projects
 [git-docs-branching-workflows]: https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
 [gitflow]: http://nvie.com/posts/a-successful-git-branching-model
 [nodejs]: https://nodejs.org
@@ -211,11 +211,11 @@ Thanks for the inspirations and attributions to GitHub's [Open Source Guides](ht
 [ref-rubyonrails-contributing]: http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html
 [semver]: http://semver.org
 [stackoverflow-mcve]: https://stackoverflow.com/help/mcve
-[styleguide-git-badge]: https://rawgit.com/arcticicestudio/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg
-[styleguide-git-github]: https://github.com/arcticicestudio/styleguide-git
-[styleguide-javascript-badge]: https://rawgit.com/arcticicestudio/styleguide-javascript/develop/src/assets/styleguide-javascript-banner-typography-badge.svg
-[styleguide-javascript-github]: https://github.com/arcticicestudio/styleguide-javascript
+[styleguide-git-badge]: https://rawgit.com/hellotham/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg
+[styleguide-git-github]: https://github.com/hellotham/styleguide-git
+[styleguide-javascript-badge]: https://rawgit.com/hellotham/styleguide-javascript/develop/src/assets/styleguide-javascript-banner-typography-badge.svg
+[styleguide-javascript-github]: https://github.com/hellotham/styleguide-javascript
 [sscce]: http://sscce.org
-[template-issue]: https://github.com/arcticicestudio/nord/blob/develop/.github/ISSUE_TEMPLATE.md
-[template-pr]: https://github.com/arcticicestudio/nord/blob/develop/.github/PULL_REQUEST_TEMPLATE.md
-[version-latest]: https://github.com/arcticicestudio/nord/releases/latest
+[template-issue]: https://github.com/hellotham/rosely/blob/develop/.github/ISSUE_TEMPLATE.md
+[template-pr]: https://github.com/hellotham/rosely/blob/develop/.github/PULL_REQUEST_TEMPLATE.md
+[version-latest]: https://github.com/hellotham/rosely/releases/latest
