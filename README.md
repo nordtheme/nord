@@ -2,7 +2,7 @@
 
 ## A warm and serene color palette based on millennial pink
 
-<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/develop/images/icon.png"/></a></p>
+<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/develop/images/icon.svg"/></a></p>
 
 <p align="center">A warm and serene color palette based on millennial pink.</p>
 
@@ -63,13 +63,13 @@ yarn add rosely
 
 Please see the complete [installation and usage guide][home-docs-usage] for more details.
 
-## Port Projects
+## Themes for Applications
 
 Unify the appearance and usage experience for your favorite applications — from code editors, shell terminals to modern UIs and libraries.
 
-Rosely supports a broad and constantly growing spectrum that allows to [customize your daily tool stack][home-ports].
+Rosely supports a broad and constantly growing spectrum that allows to [customize your daily tool stack][home-themes].
 
-<p align="center"><a href="https://rosely.hellotham.com/ports"><img src="https://raw.githubusercontent.com/hellotham/rosely-docs/develop/assets/images/rosely/repository-roselyify.svg?sanitize=true" alt="Rosely port project illustration" /></a></p>
+<p align="center"><a href="https://rosely.hellotham.com/themes"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/wireframe.svg?sanitize=true" alt="Rosely theme project illustration" /></a></p>
 
 ## Color Swatches
 
@@ -77,7 +77,7 @@ Next to the many ways of [integrating Rosely into your project][home-docs-usage]
 
 Easily import Rosely into macOS, _Adobe_ products like _Photoshop_ & _Illustrator_, GIMP/Krita/Inkscape and many more.
 
-<p align="center"><a href="https://rosely.hellotham.com/ports"><img src="https://raw.githubusercontent.com/hellotham/rosely-docs/develop/assets/images/rosely/repository-color-swatches.svg?sanitize=true" alt="Rosely port project illustration" /></a></p>
+<p align="center"><a href="https://rosely.hellotham.com/docs/palette"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/palette.svg?sanitize=true" alt="Rosely palette swatches illustration" /></a></p>
 
 ## Contributing
 
@@ -89,11 +89,11 @@ Please take a moment to read the full [contributing guide][contrib-guide] to lea
 
 The guide also includes information about [minimal, complete, and verifiable examples][contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][contrib-guide-impr-issues] and [giving feedback on issues and pull requests][contrib-guide-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/hellotham/rosely-docs/develop/assets/images/rosely/repository-footer-separator.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/product-iteration.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2020 <a href="https://www.hellotham.com" target="_blank">Hello Tham</a> and <a href="https://christham.net" target="_blank">Chris Tham</a></p>
 
-<p align="center"><a href="https://github.com/hellotham/rosely/blob/develop/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center"><a href="https://github.com/hellotham/rosely/blob/master/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
 [contrib-guide-branching]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#branch-organization
 [contrib-guide-bugs]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#bug-reports
@@ -108,9 +108,9 @@ The guide also includes information about [minimal, complete, and verifiable exa
 [contrib-guide]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md
 [home-comm]: https://rosely.hellotham.com/community
 [home-docs-colors]: https://rosely.hellotham.com/docs/colors-and-palettes
-[home-docs-swatches]: https://rosely.hellotham.com/docs/swatches
-[home-docs-usage]: https://rosely.hellotham.com/docs/usage
-[home-ports]: https://rosely.hellotham.com/ports
+[home-docs-swatches]: https://rosely.hellotham.com/docs/palette
+[home-docs-usage]: https://rosely.hellotham.com/docs/projects
+[home-themes]: https://rosely.hellotham.com/themes
 [home]: https://rosely.hellotham.com
 [npm]: https://www.npmjs.com
 [yarn]: https://yarnpkg.com
