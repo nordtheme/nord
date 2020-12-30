@@ -1,94 +1,27 @@
-<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/develop/images/icon.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/master/images/icon.svg?sanitize=true" width="150" height="150"/></a></p>
 
 <p align="center">Changelog for <a href="https://github.com/hellotham/rosely" alt="Rosely">Rosely</a>.</p>
 
-# 0.2.0
+# 1.0.0
 
-![Release Date: 2016-11-22](https://img.shields.io/badge/Release_Date-2016--11--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/hellotham/rosely/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/hellotham/rosely/milestone/2)
-
-> Detailed information about features and the project can be found in the [project documentation][ghio-docs].
-
-## Improvements
-
-### Color Swatches
-
-The "Adobe Photoshop Color Palette" (`rosely.ase`) is now fully compatible to Adobe Photoshop CS6. The previous file was created using [Gpick][gpick] and has been recreated using [Adobe Photoshop CS6][adobe-photoshop] to be fully compatible with the vendor format specification. (#5, 30ae2f4b)
-
-### Documentation
-
-❯ Switched the color definitions for `rosely8` and `rosely14`. The accent color `rosely8` is now used for methods and functions while strings and attribute values are now colored by `rosely14` instead. This design has already been implemented in all port projects before, but is now officially documented with this release version. (#1, 2a95e4c0)
-
-❯ Switched the color of punctuations and variables / constants. The `rosely4` color is now used for variables and constants while punctuations are now colored by `rosely6` instead. This design has also already been implemented in all port projects before, but is now officially documented with this release version. (#2, f8231acd)
-
-❯ `rosely13` is now used to colorize regular expressions. (#3, adfcac5c)
-
-❯ Added new SVG variations of the color palette components. These can be used for showcases or any kind of branding concepts. (78ef70b8)
-
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/rosely-component-polar-night.svg"/></p>
-
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/rosely-component-snow-storm.svg"/></p>
-
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/rosely-component-flowermeadow.svg"/></p>
-
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/rosely-component-vividfloriade.svg"/></p>
-
-#### Port Projects
-
-❯ Added new official port projects. (eacf9078, 51f46d1b, d51a995b)
-
-[![Rosely Eclipse Syntax][assets-port-banner-eclipse-syntax]][gh-repo-rosely-eclipse-syntax]
-
-[![Rosely gedit][assets-port-banner-gedit]][gh-repo-rosely-gedit]
-
-[![Rosely Java][assets-port-banner-java]][gh-repo-rosely-java]
-
-[![Rosely Tilix][assets-port-banner-tilix]][gh-repo-rosely-tilix]
-
-## Tasks
-
-### Toolbox
-
-❯ Added [Travis CI][ci-travisci] and [Circle CI][ci-circleci] configurations. (#4, 00beff7d)
-
-❯ Added npm registry badges to show the latest published version and amount of downloads. (2c061e15)
-
-# 0.1.0
-
-![Release Date: 2016-09-04](https://img.shields.io/badge/Release_Date-2016--09--04-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/hellotham/rosely/projects/2) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/hellotham/rosely/milestone/1)
+![Release Date: 2016-09-04](https://img.shields.io/badge/Release_Date-2020--12--31-B565A7.svg?style=flat-square)
+[![Version](https://img.shields.io/github/package-json/v/ChristineTham/Rosely.svg?style=flat-square)](https://github.com/hellotham/rosely)
 
 > Detailed information about features and the project can be found in the [project documentation][ghio-docs].
-
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/rosely-overview.svg" alt="Rosely Palette Overview"/></p>
 
 ## Features
 
-❯ Added the <img src="http://sass-lang.com/favicon.ico" width=16 height=16 /> [Sass][sass] sources `rosely.scss` and the `template-css.scss` CSS template which can be compiled to `rosely.css` with [Gulp][gulp] by running `gulp compile-css-template`. (6106be79)
-
-❯ Added the Sass documentation using <img src="http://sassdoc.com/favicon.png" width=16 height=16 /> [Sassdoc][sassdoc] which can be compiled to a static HTML documentation via [Gulp][gulp] by running `gulp sassdoc`. (ab2a6b45 and 133c597c)
-
-❯ Added the <img src="http://lesscss.org/public/ico/favicon.ico" width=16 height=16 /> [Less][less] source `rosely.less`. (dc568bb2)
-
-❯ Added the Less source documentation using the [KSS][kss] documentation syntax. Information about the generation of a styleguide can be found in the [official KSS documentation][kss-doc-styleguide].
-
-❯ Added various native color swatches:
-
-![][assets-color-swatch]
-
-- `.aco` - [Adobe Photoshop][adobe-photoshop] Palette
-- `.ase` - [Adobe Swatch Exchange][adobe-help-color-swatches]
-- `.gpa` - [Gpick][gpick] Palette
-- `.gpl` - [GIMP][gimp-doc-color-palette], [Inkscape][inkscape-wiki-color-palette] and [Krita][krita-doc-color-palette] Palette
-- `.mtl` - Alias and WaveFront Material
+❯ Initial Release
 
 # Project Initialization
 
-![Project Initialization: 2016-09-04](https://img.shields.io/badge/Project_Initialization-2016--09--04-88C0D0.svg?style=flat-square)
+![Created: 2020-12-24](https://img.shields.io/badge/Created-2020--23--34-B565A7.svg?style=flat-square)
 
-<p align="center"><img src="https://cdn.rawgit.com/hellotham/rosely/develop/assets/banner-footer-mountains.svg" /></p>
+<p align="center"><img src="https://github.com/ChristineTham/rosely/raw/master/images/rosely.png" /></p>
 
-<p align="center">Copyright &copy; 2016-present Arctic Ice Studio</p>
+<p align="center">Copyright &copy; 2020 Hello Tham Pty Ltd</p>
 
-<p align="center"><a href="https://github.com/hellotham/rosely/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/hellotham/rosely/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-B565A7.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-B565A7.svg?style=flat-square"/></a></p>
 
 [adobe-help-color-swatches]: https://helpx.adobe.com/illustrator/using/using-creating-swatches.html
 [adobe-photoshop]: http://adobe.com/products/photoshop

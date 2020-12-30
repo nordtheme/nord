@@ -191,8 +191,8 @@ Every significant change is documented in the [changelog][changelog].
 Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide) and various contribution guides of large open source projects like [Atom][ref-atom-contributing], [React][ref-react-contributing] and [Ruby on Rails][ref-rubyonrails-contributing].
 
 [branch-develop]: https://github.com/hellotham/rosely/tree/develop
-[changelog]: https://github.com/hellotham/rosely/blob/develop/CHANGELOG.md
-[code-of-conduct]: https://github.com/hellotham/rosely/blob/develop/CODE_OF_CONDUCT.md
+[changelog]: https://github.com/hellotham/rosely/blob/master/CHANGELOG.md
+[code-of-conduct]: https://github.com/hellotham/rosely/blob/master/CODE_OF_CONDUCT.md
 [email]: mailto:development@hellotham.com
 [gh-help-attach-files]: https://help.github.com/articles/file-attachments-on-issues-and-pull-requests
 [gh-help-issue-keywords]: https://help.github.com/articles/closing-issues-using-keywords
@@ -211,11 +211,11 @@ Thanks for the inspirations and attributions to GitHub's [Open Source Guides](ht
 [ref-rubyonrails-contributing]: http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html
 [semver]: http://semver.org
 [stackoverflow-mcve]: https://stackoverflow.com/help/mcve
-[styleguide-git-badge]: https://rawgit.com/hellotham/styleguide-git/develop/src/assets/styleguide-git-banner-typography-badge.svg
+[styleguide-git-badge]: https://rawgit.com/hellotham/styleguide-git/master/src/assets/styleguide-git-banner-typography-badge.svg
 [styleguide-git-github]: https://github.com/hellotham/styleguide-git
-[styleguide-javascript-badge]: https://rawgit.com/hellotham/styleguide-javascript/develop/src/assets/styleguide-javascript-banner-typography-badge.svg
+[styleguide-javascript-badge]: https://rawgit.com/hellotham/styleguide-javascript/master/src/assets/styleguide-javascript-banner-typography-badge.svg
 [styleguide-javascript-github]: https://github.com/hellotham/styleguide-javascript
 [sscce]: http://sscce.org
-[template-issue]: https://github.com/hellotham/rosely/blob/develop/.github/ISSUE_TEMPLATE.md
-[template-pr]: https://github.com/hellotham/rosely/blob/develop/.github/PULL_REQUEST_TEMPLATE.md
+[template-issue]: https://github.com/hellotham/rosely/blob/master/.github/ISSUE_TEMPLATE.md
+[template-pr]: https://github.com/hellotham/rosely/blob/master/.github/PULL_REQUEST_TEMPLATE.md
 [version-latest]: https://github.com/hellotham/rosely/releases/latest

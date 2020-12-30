@@ -55,5 +55,5 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide), [Hoodie's Code of Conduct](http://hood.ie/code-of-conduct) and the [Contributor Covenant Version 1.4](http://contributor-covenant.org/version/1/4/).
 
-[email]: mailto:development@hellotham.com
+[email]: mailto:info@hellotham.com
 [ref-gender-neutral-docs]: https://modelviewculture.com/pieces/gendered-language-feature-or-bug-in-software-documentation

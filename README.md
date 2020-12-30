@@ -2,7 +2,7 @@
 
 ## A warm and serene color palette based on millennial pink
 
-<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/develop/images/icon.svg"/></a></p>
+<p align="center"><a href="https://rosely.hellotham.com" target="_blank"><img src="https://github.com/ChristineTham/rosely/raw/master/images/icon.svg" width="150" height="150"/></a></p>
 
 <p align="center">A warm and serene color palette based on millennial pink.</p>
 
@@ -22,7 +22,7 @@ For syntax highlighting it aims to ensure an <strong>undisturbed focus on import
 
 <p align="center">Rosely consists of four named color palettes providing different syntactic meanings and color effects for dark & bright ambiance designs.</p>
 
-[![Rosely Color Palette Overview](https://github.com/ChristineTham/rosely/raw/develop/images/rosely.png)](https://rosely.hellotham.com/docs/colors-and-palettes)
+[![Rosely Color Palette Overview](https://github.com/ChristineTham/rosely/raw/master/images/rosely.png)](https://rosely.hellotham.com/docs/colors-and-palettes)
 
 Rosely is a simple and uncluttered design system based on the warm and embracing gentle colour of rose quartz crystals (popularly known
 as *Millennial Pink*), together with
@@ -69,7 +69,7 @@ Unify the appearance and usage experience for your favorite applications — fro
 
 Rosely supports a broad and constantly growing spectrum that allows to [customize your daily tool stack][home-themes].
 
-<p align="center"><a href="https://rosely.hellotham.com/themes"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/wireframe.svg?sanitize=true" alt="Rosely theme project illustration" /></a></p>
+<p align="center"><a href="https://rosely.hellotham.com/themes"><img src="https://github.com/ChristineTham/rosely/raw/master/images/wireframe.svg?sanitize=true" alt="Rosely theme project illustration" /></a></p>
 
 ## Color Swatches
 
@@ -77,7 +77,7 @@ Next to the many ways of [integrating Rosely into your project][home-docs-usage]
 
 Easily import Rosely into macOS, _Adobe_ products like _Photoshop_ & _Illustrator_, GIMP/Krita/Inkscape and many more.
 
-<p align="center"><a href="https://rosely.hellotham.com/docs/palette"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/palette.svg?sanitize=true" alt="Rosely palette swatches illustration" /></a></p>
+<p align="center"><a href="https://rosely.hellotham.com/docs/palette"><img src="https://raw.githubusercontent.com/ChristineTham/rosely/master/images/palette.svg?sanitize=true" alt="Rosely palette swatches illustration" /></a></p>
 
 ## Contributing
 
@@ -89,23 +89,23 @@ Please take a moment to read the full [contributing guide][contrib-guide] to lea
 
 The guide also includes information about [minimal, complete, and verifiable examples][contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][contrib-guide-impr-issues] and [giving feedback on issues and pull requests][contrib-guide-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/hellotham/rosely/develop/images/product-iteration.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ChristineTham/rosely/master/images/product-iteration.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2020 <a href="https://www.hellotham.com" target="_blank">Hello Tham</a> and <a href="https://christham.net" target="_blank">Chris Tham</a></p>
 
 <p align="center"><a href="https://github.com/hellotham/rosely/blob/master/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-[contrib-guide-branching]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#branch-organization
-[contrib-guide-bugs]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#bug-reports
-[contrib-guide-docs]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#documentations
-[contrib-guide-enhance]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#enhancement-suggestions
-[contrib-guide-feedback]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#give-feedback-on-issues-and-pull-requests
-[contrib-guide-impr-issues]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#improve-issues
-[contrib-guide-mcve]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#mcve
-[contrib-guide-pr]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#pull-requests
-[contrib-guide-styles]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#styleguides
-[contrib-guide-versioning]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md#versioning
-[contrib-guide]: https://github.com/hellotham/rosely/blob/develop/CONTRIBUTING.md
+[contrib-guide-branching]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#branch-organization
+[contrib-guide-bugs]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#bug-reports
+[contrib-guide-docs]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#documentations
+[contrib-guide-enhance]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#enhancement-suggestions
+[contrib-guide-feedback]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#give-feedback-on-issues-and-pull-requests
+[contrib-guide-impr-issues]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#improve-issues
+[contrib-guide-mcve]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#mcve
+[contrib-guide-pr]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#pull-requests
+[contrib-guide-styles]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#styleguides
+[contrib-guide-versioning]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md#versioning
+[contrib-guide]: https://github.com/hellotham/rosely/blob/master/CONTRIBUTING.md
 [home-comm]: https://rosely.hellotham.com/community
 [home-docs-colors]: https://rosely.hellotham.com/docs/colors-and-palettes
 [home-docs-swatches]: https://rosely.hellotham.com/docs/palette
