@@ -92,7 +92,7 @@ When you are submitting an pull request, please provide as much detail and conte
 * **Lint and test before submitting the pull request**.
 * **Make sure to create the pull request from a [topic branch][git-docs-branching-workflows]**.
 
-**All pull requests must be send against the `develop` branch** - Please read the [branch organization](#branch-organization) section below for details about the branching model.
+**All pull requests must be sent against the `develop` branch** - Please read the [branch organization](#branch-organization) section below for details about the branching model.
 
 ### Documentations
 
@@ -107,7 +107,7 @@ The Nord uses the [gitflow][gitflow] branching model. The repository consists of
 * `master` - The source code of `HEAD` always reflects a tagged release version.
 * `develop` - The default branch where the source code of `HEAD` always reflects a state with the latest development state.
 
-**All [pull requests](#pull-requests) for the limited development lifecycle *story*/*topic* branches must be send against the `develop` branch**.
+**All [pull requests](#pull-requests) for the limited development lifecycle *story*/*topic* branches must be sent against the `develop` branch**.
 
 ## How else can I help?
 
@@ -147,7 +147,7 @@ The style guide assumes that you are familiar with the [gitflow][gitflow] branch
 
 A Minimal, Complete, and Verifiable Example.
 
-When [reporting a bug](#bug-reports), somtimes even when [suggestig a enhancement](#enhancement-suggestions), the issue can be processed faster if you provide code for reproduction. That code should be…
+When [reporting a bug](#bug-reports), sometimes even when [suggesting an enhancement](#enhancement-suggestions), the issue can be processed faster if you provide code for reproduction. That code should be…
 
 * …Minimal – Use as little code as possible that still produces the same behavior
 * …Complete – Provide all parts needed to reproduce the behavior
