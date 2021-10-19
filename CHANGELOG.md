@@ -14,7 +14,7 @@
 
 ### Color Swatches
 
-The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adobe Photoshop CS6. The previous file was created using [Gpick][gpick] and has been recreated using [Adobe Photoshop CS6][adobe-photoshop] to be fully compatible with the vendor format specification. (#5, 30ae2f4b)
+The "Adobe Photoshop Color Palette" (`nord.ase`) is now fully compatible to Adobe Photoshop CS6. The previous file was created using [Gpick][gpick] and has been recreated using [Adobe Photoshop CS6][adobe-photoshop] to be fully compatible with the vendor specification. (#5, 30ae2f4b)
 
 ### Documentation
 
