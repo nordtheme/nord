@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.nordtheme.com" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-hero.svg?sanitize=true"/></a></p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a> <a href="https://github.com/arcticicestudio/nord/blob/develop/CHANGELOG.md"><img src="https://img.shields.io/github/release/arcticicestudio/nord.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
@@ -17,7 +17,7 @@ For syntax highlighting it aims to ensure an <strong>undisturbed focus on import
 
 <p align="center">Nord consists of four named color palettes providing different syntactic meanings and color effects for dark & bright ambiance designs.</p>
 
-[![Nord Color Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-color-palettes.svg?sanitize=true)](https://www.nordtheme.com/docs/colors-and-palettes)
+[![Nord Color Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-color-palettes.svg?sanitize=true)](https://www.nordtheme.com/docs/colors-and-palettes)
 
 All colors are numbered from `nord0` to `nord15` where each palette contains a different amount of colors. The naming convention preserves the compatibility for terminal color schemes and allows an uncomplicated use as base for such.
 
@@ -45,7 +45,7 @@ Unify the appearance and usage experience for your favorite applications — fro
 
 Nord supports a broad and constantly growing spectrum that allows to [customize your daily tool stack][home-ports].
 
-<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-nordify.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-nordify.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
 
 ## Color Swatches
 
@@ -53,7 +53,7 @@ Next to the many ways of [integrating Nord into your project][home-docs-usage], 
 
 Easily import Nord into macOS, _Adobe_ products like _Photoshop_ & _Illustrator_, GIMP/Krita/Inkscape and many more.
 
-<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-color-swatches.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-color-swatches.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
 
 ## Contributing
 
@@ -65,7 +65,7 @@ Please take a moment to read the full [contributing guide][contrib-guide] to lea
 
 The guide also includes information about [minimal, complete, and verifiable examples][contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][contrib-guide-impr-issues] and [giving feedback on issues and pull requests][contrib-guide-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
