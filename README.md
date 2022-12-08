@@ -17,7 +17,7 @@ For syntax highlighting it aims to ensure an <strong>undisturbed focus on import
 
 <p align="center">Nord consists of four named color palettes providing different syntactic meanings and color effects for dark & bright ambiance designs.</p>
 
-[![Nord Color Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-color-palettes.svg?sanitize=true)](https://www.nordtheme.com/docs/colors-and-palettes)
+[![Nord Color Palette Overview](https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-color-palettes.svg?sanitize=true)](https://www.nordtheme.com/docs/colors-and-palettes)
 
 All colors are numbered from `nord0` to `nord15` where each palette contains a different amount of colors. The naming convention preserves the compatibility for terminal color schemes and allows an uncomplicated use as base for such.
 
@@ -45,7 +45,7 @@ Unify the appearance and usage experience for your favorite applications — fro
 
 Nord supports a broad and constantly growing spectrum that allows to [customize your daily tool stack][home-ports].
 
-<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-nordify.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-nordify.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
 
 ## Color Swatches
 
@@ -53,7 +53,7 @@ Next to the many ways of [integrating Nord into your project][home-docs-usage], 
 
 Easily import Nord into macOS, _Adobe_ products like _Photoshop_ & _Illustrator_, GIMP/Krita/Inkscape and many more.
 
-<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-color-swatches.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-color-swatches.svg?sanitize=true" alt="Nord port project illustration" /></a></p>
 
 ## Contributing
 
