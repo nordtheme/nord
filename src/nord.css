@@ -1,18 +1,16 @@
 /*
- * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
  * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord
- * Version:    0.2.0
- * Repository: https://github.com/arcticicestudio/nord
- * License:    MIT
+ * This source code is licensed under the MIT license found in the license file.
+ */
+
+/*
  * References:
- *   https://www.w3.org/TR/css-variables
- *   https://www.w3.org/TR/selectors/#root-pseudo
- *   https://drafts.csswg.org/css-variables
- *   https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
- *   http://warpspire.com/kss
- *   https://github.com/kss-node/kss-node
+ *   1. https://www.w3.org/TR/css-variables
+ *   2. https://www.w3.org/TR/selectors/#root-pseudo
+ *   3. https://drafts.csswg.org/css-variables
+ *   4. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+ *   5. https://warpspire.com/kss
+ *   6. https://github.com/kss-node/kss-node
  */
 
 /*

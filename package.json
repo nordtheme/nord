@@ -1,20 +1,15 @@
 {
   "name": "nord",
-  "title": "Nord",
   "version": "0.2.1",
   "description": "An arctic, north-bluish color palette",
-  "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "https://www.arcticicestudio.com"
-  },
+  "author": "Sven Greb <development@svengreb.de> (https://www.svengreb.de)",
   "homepage": "https://www.nordtheme.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcticicestudio/nord.git"
+    "url": "git+https://github.com/nordtheme/nord.git"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord/issues"
+    "url": "https://github.com/nordtheme/nord/issues"
   },
   "license": "MIT",
   "keywords": [

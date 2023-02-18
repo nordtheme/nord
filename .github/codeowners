@@ -1,0 +1,14 @@
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+# Configuration for the GitHub feature to automatically request reviews from the code owners
+# when a pull request changes any owned files.
+#
+# References:
+#   1. https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-file-location
+#   2. https://github.com/blog/2392-introducing-code-owners
+
+# +----------------------+
+# + Core Team Code Owner +
+# +----------------------+
+* @svengreb

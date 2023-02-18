@@ -1,21 +1,19 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord
- * Repository: https://github.com/arcticicestudio/nord
- * License:    MIT
- * References:
- *   https://stylelint.io
- *   https://stylelint.io/user-guide/rules
- *   https://github.com/stylelint/stylelint-config-standard
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
+/**
+ * Stylelint configurations.
+ * @see https://stylelint.io
+ * @see https://stylelint.io/user-guide/rules
+ * @see https://github.com/stylelint/stylelint-config-standard
+ */
 module.exports = {
   extends: "stylelint-config-standard",
   rules: {
     "color-hex-case": "lower",
     "comment-empty-line-before": null,
-    "selector-pseudo-element-colon-notation": "single"
-  }
+    "selector-pseudo-element-colon-notation": "single",
+  },
 };
