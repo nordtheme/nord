@@ -1,0 +1,8 @@
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+# Path match pattern to ignore (i.e. not reformat) certain files and folders.
+# See https://prettier.io/docs/en/ignore for more details.
+
+.husky/_/
+node_modules/

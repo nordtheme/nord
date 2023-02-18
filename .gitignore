@@ -1,19 +1,10 @@
-# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
-#
-# Project:    Nord
-# Repository: https://github.com/arcticicestudio/nord
-# License:    MIT
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# +------+
-# + Logs +
-# +------+
-logs/
-**/*.log
-npm-debug.log*
+# Path match pattern to intentionally ignore untracked files and directories.
+# See https://git-scm.com/docs/gitignore for more details.
 
 # +---------+
 # + Node.js +
 # +---------+
-**/node_modules/
-.npm/
+node_modules/

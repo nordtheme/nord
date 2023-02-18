@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+. "$(dirname "$0")/_/husky.sh"
+
+npm exec lint-staged

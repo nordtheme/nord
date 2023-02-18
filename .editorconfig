@@ -1,20 +1,21 @@
-# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
-#
-# Project:    Nord
-# Repository: https://github.com/arcticicestudio/nord
-# License:    MIT
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+# Configurations for EditorConfig.
+# See https://editorconfig.org/#file-format-details for more details.
 
 # +--------------------+
 # + Base Configuration +
 # +--------------------+
+root = true
+
 [*]
 charset = utf-8
 end_of_line = lf
 indent_size = 2
 indent_style = space
 insert_final_newline = true
-max_line_length = 120
+max_line_length = 160
 trim_trailing_whitespace = true
 
 # +----------------+
@@ -34,4 +35,5 @@ trim_trailing_whitespace = false
 # +-----------+
 # +--- Markdown ---+
 [*.{md}]
+max_line_length = off
 trim_trailing_whitespace = false
