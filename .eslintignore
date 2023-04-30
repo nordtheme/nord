@@ -11,7 +11,5 @@ node_modules/
 # ESLint automatically applies ignore pattern for "dotfiles" by default to prevent accidentally lint over paths like
 # `.git` or any other critical paths.
 !**/.eslintrc.js
-!.remarkrc.js
+!.remarkrc.mjs
 !.stylelintrc.js
-!lint-staged.config.js
-!prettier.config.js
