@@ -5,3 +5,4 @@
 # See https://github.com/unifiedjs/unified-engine/blob/HEAD/doc/ignore.md for more details.
 
 node_modules/
+license

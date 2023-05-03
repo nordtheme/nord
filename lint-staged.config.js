@@ -10,7 +10,7 @@
 module.exports = {
   "*.{css,less,scss}": ["stylelint", "prettier --check --ignore-unknown --no-editorconfig"],
   "*.json": "prettier --check --ignore-unknown --no-editorconfig",
-  "*.js": ["eslint", "prettier --check --ignore-unknown --no-editorconfig"],
+  "*.{js,js}": ["eslint", "prettier --check --ignore-unknown --no-editorconfig"],
   "*.md": ["remark --no-stdout", "prettier --check --ignore-unknown --no-editorconfig"],
   ".husky/pre-*": "prettier --check --ignore-unknown --no-editorconfig",
 };
