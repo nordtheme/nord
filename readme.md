@@ -39,8 +39,11 @@
   <a href="https://github.com/svengreb/styleguide-git/releases/latest" target="_blank">
     <img src="https://img.shields.io/github/release/svengreb/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">
-    <img src="https://img.shields.io/badge/-WCAG_2.1_|_AA-4E5668?logo=w3c&logoColor=fff&style=flat-square&labelColor=88c0d0" alt="W3C">
+    <img src="https://img.shields.io/badge/-WCAG_2.1_|_AA-88c0d0?logo=w3c&logoColor=fff&style=flat-square&labelColor=4E5668" alt="W3C">
   </a>
 </p>
 
