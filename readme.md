@@ -39,6 +39,9 @@
   <a href="https://github.com/svengreb/styleguide-git/releases/latest" target="_blank">
     <img src="https://img.shields.io/github/release/svengreb/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git" />
   </a>
+  <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">
+    <img src="https://img.shields.io/badge/-WCAG_2.1_|_AA-4E5668?logo=w3c&logoColor=fff&style=flat-square&labelColor=88c0d0" alt="W3C">
+  </a>
 </p>
 
 <p align="center">An arctic, north-bluish color palette.</p>
@@ -108,6 +111,10 @@ Easily import Nord into macOS, _Adobe_ products like _Photoshop_ & _Illustrator_
     </picture>
   </a>
 </p>
+
+## Accessibility
+
+The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).  
 
 ## Contributing
 
